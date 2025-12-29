@@ -39,7 +39,7 @@ Anant pandey -  https://www.linkedin.com/in/ap-invincible/
 
 shivanshu shukla -  https://www.linkedin.com/in/shivanshu-shukla-183771380/
 
-Chavi Jaiswal - https://www.linkedin.com/in/chavi-jaiswal-a98b09360/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+Chavi Jaiswal - https://www.linkedin.com/in/chavi-jaiswal-a98b09360/
 
 Aditya Bainsla (Me :D) - https://www.linkedin.com/in/aditya-bainsla-55992a29a/
 
