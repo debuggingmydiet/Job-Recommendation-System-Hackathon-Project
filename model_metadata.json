@@ -1,0 +1,32 @@
+{
+    "model_type": "Random Forest",
+    "training_date": "2025-11-28 10:06:26",
+    "dataset_size": {
+        "total_applications": 3927,
+        "training_samples": 3141,
+        "test_samples": 786
+    },
+    "performance": {
+        "test_accuracy": 0.7035623409669212,
+        "f1_score": 0.6681798591858278,
+        "cv_mean_accuracy": 0.6949329832579698,
+        "cv_std": 0.010092571179144742,
+        "cv_min": 0.683206106870229,
+        "cv_max": 0.70828025477707
+    },
+    "features": [
+        "skill_match_score",
+        "experience_match_score",
+        "cgpa_score",
+        "projects_score",
+        "skill_exp_interaction",
+        "academic_performance",
+        "overall_quality"
+    ],
+    "classes": [
+        "hired",
+        "rejected",
+        "shortlisted"
+    ],
+    "model_params": "{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 20, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 5, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 300, 'n_jobs': -1, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}"
+}

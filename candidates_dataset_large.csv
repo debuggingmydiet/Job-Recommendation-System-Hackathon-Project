@@ -1,0 +1,501 @@
+candidate_id,name,email,skills,experience,education,cgpa,certifications,projects_count,github_repos,linkedin_connections
+1,Laxmi Saxena,laxmi.saxena291@email.com,"Network Security, Ethical Hacking, Python, Linux, Penetration Testing",5.8,Diploma CS,9.66,None,5,2,1243
+2,Ankit Mishra,ankit.mishra318@email.com,"Node.js, Express, MongoDB, REST API, GraphQL, JavaScript",1.0,B.Sc IT,9.56,None,8,12,1367
+3,Abhishek Desai,abhishek.desai687@email.com,"DevOps, Jenkins, Git, Docker, Linux, CI/CD, Monitoring",0.7,Diploma CS,7.61,Cisco CCNA,0,11,682
+4,Isha Bhat,isha.bhat350@email.com,"R, Python, Statistics, Data Analysis, Machine Learning, Visualization",1.5,MCA,6.59,None,1,16,1155
+5,Puja Singh,puja.singh678@email.com,"Solidity, Ethereum, Smart Contracts, Web3, JavaScript, Blockchain",7.0,B.Tech,6.5,None,2,5,420
+6,Zara Mehta,zara.mehta739@email.com,"Ruby, Rails, PostgreSQL, REST API, Git, Web Development",0.3,B.Tech IT,8.57,Certified Kubernetes Administrator,7,19,633
+7,Rekha Rao,rekha.rao547@email.com,"Selenium, Python, Testing, Automation, JIRA, Manual Testing",2.5,M.Tech AI,8.98,Microsoft Azure Certified,5,21,1218
+8,Sunil Bose,sunil.bose788@email.com,"Azure, Google Cloud, Terraform, Kubernetes, Networking, Python",6.2,BCA,8.0,Oracle Certified Professional,3,25,1288
+9,Riya Sinha,riya.sinha54@email.com,"Swift, iOS Development, Xcode, REST API, Firebase",7.0,BCA,9.55,Scrum Master Certified,1,9,221
+10,Nikhil Malhotra,nikhil.malhotra461@email.com,"Scala, Apache Spark, Big Data, Hadoop, SQL, Data Engineering",1.2,B.E. Computer Science,6.35,Certified Kubernetes Administrator,7,11,104
+11,Ananya Kumar,ananya.kumar406@email.com,"Scala, Apache Spark, Big Data, Hadoop, SQL, Data Engineering",3.0,B.E. Computer Science,9.78,Cisco CCNA,3,0,702
+12,Aditya Gandhi,aditya.gandhi811@email.com,"Python, Scikit-learn, Machine Learning, Statistics, Jupyter, Pandas",1.1,M.Tech,9.49,None,2,24,1494
+13,Pavan Khanna,pavan.khanna631@email.com,"Python, Machine Learning, TensorFlow, Data Analysis, Statistics, SQL",7.2,BCA,6.97,None,8,23,1296
+14,Puja Arora,puja.arora114@email.com,"Azure, Google Cloud, Terraform, Kubernetes, Networking, Python",1.9,B.Tech Computer Science,6.18,Red Hat Certified,10,25,1325
+15,Manoj Reddy,manoj.reddy114@email.com,"R, Python, Statistics, Data Analysis, Machine Learning, Visualization",4.8,BCA,8.4,Certified Kubernetes Administrator,2,9,929
+16,Rahul Thakur,rahul.thakur362@email.com,"Selenium, Python, Testing, Automation, JIRA, Manual Testing",4.6,MCA,8.52,None,8,11,188
+17,Puja Menon,puja.menon520@email.com,"Scala, Apache Spark, Big Data, Hadoop, SQL, Data Engineering",4.4,B.E. Computer Science,9.32,AWS Certified Solutions Architect,10,12,814
+18,Suresh Verma,suresh.verma366@email.com,"Python, Pandas, NumPy, Data Visualization, SQL, Excel, Matplotlib",2.8,B.Sc IT,8.5,Coursera ML Specialization,9,23,730
+19,Riya Singh,riya.singh361@email.com,"OpenCV, Python, Computer Vision, Deep Learning, Image Processing",2.7,Diploma CS,6.67,Docker Certified Associate,7,20,423
+20,Riya Reddy,riya.reddy734@email.com,"Go, Docker, Kubernetes, Microservices, Cloud, gRPC",0.3,B.Sc Computer Science,6.17,Microsoft Azure Certified,0,10,685
+21,Madhuri Tiwari,madhuri.tiwari835@email.com,"OpenCV, Python, Computer Vision, Deep Learning, Image Processing",3.8,BCA,8.86,Microsoft Azure Certified,4,11,147
+22,Abhishek Malhotra,abhishek.malhotra128@email.com,"Networking, Cisco, TCP/IP, Routing, Firewalls, Linux",3.5,B.E. Computer Science,8.82,None,5,5,1066
+23,Jyoti Pandey,jyoti.pandey947@email.com,"DevOps, Jenkins, Git, Docker, Linux, CI/CD, Monitoring",2.1,B.Tech Computer Science,8.76,None,6,19,419
+24,Smita Agarwal,smita.agarwal329@email.com,"Python, Deep Learning, NLP, PyTorch, Computer Vision, TensorFlow",0.6,Diploma CS,7.12,Docker Certified Associate,9,22,922
+25,Shreya Khanna,shreya.khanna360@email.com,"Ruby, Rails, PostgreSQL, REST API, Git, Web Development",0.3,Integrated M.Tech,9.46,Red Hat Certified,4,20,167
+26,Neha Tiwari,neha.tiwari373@email.com,"Scala, Apache Spark, Big Data, Hadoop, SQL, Data Engineering",6.4,Diploma CS,6.61,Google Cloud Certified,2,19,1438
+27,Sunil Singh,sunil.singh130@email.com,"Python, Pandas, NumPy, Data Visualization, SQL, Excel, Matplotlib",1.9,Diploma CS,7.39,None,9,1,1289
+28,Simran Khanna,simran.khanna972@email.com,"Networking, Cisco, TCP/IP, Routing, Firewalls, Linux",3.0,M.Tech AI,6.29,None,8,11,865
+29,Siddharth Malhotra,siddharth.malhotra256@email.com,"AWS, Docker, Kubernetes, Jenkins, Linux, CI/CD, Terraform",0.2,MCA,7.9,None,8,3,586
+30,Preeti Khanna,preeti.khanna220@email.com,"Kubernetes, Docker, Helm, Cloud, DevOps, Monitoring",2.3,M.Sc Data Science,6.76,None,1,14,403
+31,Sunil Patel,sunil.patel830@email.com,"Unity, C#, Game Development, 3D Modeling, Game Design",5.3,B.Sc IT,6.25,None,4,9,372
+32,Varun Pandey,varun.pandey521@email.com,"PostgreSQL, MySQL, MongoDB, Database Design, SQL, Redis",1.0,B.Sc Computer Science,9.01,Certified Kubernetes Administrator,7,0,789
+33,Ramesh Rajan,ramesh.rajan378@email.com,"Go, Docker, Kubernetes, Microservices, Cloud, gRPC",6.4,BCA,6.49,None,1,9,865
+34,Bhavana Pillai,bhavana.pillai421@email.com,"Angular, TypeScript, HTML, CSS, RxJS, JavaScript",6.6,B.Tech Computer Science,6.48,PMP Certified,10,2,971
+35,Sonali Pillai,sonali.pillai353@email.com,"SQL, Excel, Tableau, Power BI, Business Intelligence, Statistics",7.0,M.Tech AI,8.09,Oracle Certified Professional,2,13,1079
+36,Pooja Joshi,pooja.joshi531@email.com,"Python, Scikit-learn, Machine Learning, Statistics, Jupyter, Pandas",2.4,MCA,7.23,Certified Kubernetes Administrator,5,16,631
+37,Rohan Sinha,rohan.sinha202@email.com,"NLP, Python, NLTK, spaCy, Transformers, Deep Learning",2.2,Diploma CS,7.15,None,1,16,1362
+38,Shreya Murthy,shreya.murthy965@email.com,"GraphQL, Node.js, React, MongoDB, API Development, TypeScript",1.2,Diploma CS,8.37,PMP Certified,9,1,108
+39,Rohan Singh,rohan.singh972@email.com,"Ansible, Terraform, AWS, Linux, Automation, Infrastructure",2.1,B.Sc Computer Science,8.91,Red Hat Certified,9,20,112
+40,Jyoti Menon,jyoti.menon297@email.com,"Android, Kotlin, Java, Firebase, REST API, Mobile Development",3.9,M.Tech AI,9.07,None,4,14,199
+41,Pooja Mehta,pooja.mehta451@email.com,"Angular, TypeScript, HTML, CSS, RxJS, JavaScript",3.9,B.Sc Computer Science,7.29,None,5,22,703
+42,Kunal Tiwari,kunal.tiwari134@email.com,"Networking, Cisco, TCP/IP, Routing, Firewalls, Linux",4.1,B.Tech Computer Science,7.21,Docker Certified Associate,1,8,970
+43,Ritika Chopra,ritika.chopra100@email.com,"Java, Spring Boot, Microservices, MySQL, Git, Docker",2.3,B.E. Computer Science,9.28,Red Hat Certified,3,5,720
+44,Sushma Shah,sushma.shah195@email.com,"JavaScript, Vue.js, HTML, CSS, Webpack, Git, Bootstrap",4.0,BCA,7.77,None,7,0,234
+45,Karthik Kulkarni,karthik.kulkarni469@email.com,"Selenium, Python, Testing, Automation, JIRA, Manual Testing",1.7,B.Tech IT,6.18,None,7,19,1389
+46,Pavan Agarwal,pavan.agarwal550@email.com,"Python, Machine Learning, TensorFlow, Data Analysis, Statistics, SQL",6.8,B.E. Computer Science,6.51,TensorFlow Developer Certificate,5,24,875
+47,Prakash Singh,prakash.singh411@email.com,"Java, Spring Boot, Microservices, MySQL, Git, Docker",4.6,B.Sc Computer Science,7.38,None,1,12,1082
+48,Rekha Krishnan,rekha.krishnan287@email.com,"Kubernetes, Docker, Helm, Cloud, DevOps, Monitoring",5.4,B.Tech Computer Science,6.49,Coursera ML Specialization,6,11,744
+49,Laxmi Pandey,laxmi.pandey774@email.com,"Python, Scikit-learn, Machine Learning, Statistics, Jupyter, Pandas",1.6,BCA,7.53,AWS Certified Solutions Architect,0,1,330
+50,Abhishek Jain,abhishek.jain532@email.com,"Go, Docker, Kubernetes, Microservices, Cloud, gRPC",1.2,BCA,6.53,PMP Certified,2,12,1312
+51,Vivek Murthy,vivek.murthy345@email.com,"Scala, Apache Spark, Big Data, Hadoop, SQL, Data Engineering",6.6,BCA,7.86,None,7,0,804
+52,Abhishek Joshi,abhishek.joshi427@email.com,"GraphQL, Node.js, React, MongoDB, API Development, TypeScript",2.5,B.Sc IT,9.31,Google Cloud Certified,9,15,593
+53,Yash Rajan,yash.rajan234@email.com,"Java, Spring Boot, Microservices, MySQL, Git, Docker",4.7,MCA,7.99,None,2,21,546
+54,Vikram Rajan,vikram.rajan971@email.com,"AWS, Docker, Kubernetes, Jenkins, Linux, CI/CD, Terraform",1.5,M.Sc Data Science,7.19,None,6,22,467
+55,Naveen Kulkarni,naveen.kulkarni794@email.com,"Kubernetes, Docker, Helm, Cloud, DevOps, Monitoring",7.4,Integrated M.Tech,9.22,AWS Certified Solutions Architect,2,16,474
+56,Laxmi Shah,laxmi.shah679@email.com,"Swift, iOS Development, Xcode, REST API, Firebase",4.2,B.Tech IT,9.64,Docker Certified Associate,8,10,1168
+57,Tanya Sinha,tanya.sinha625@email.com,"Swift, iOS Development, Xcode, REST API, Firebase",1.5,B.Sc Computer Science,7.06,None,3,9,641
+58,Gaurav Sethi,gaurav.sethi325@email.com,"Swift, iOS Development, Xcode, REST API, Firebase",2.8,M.Tech AI,8.74,None,1,18,1435
+59,Smita Saxena,smita.saxena918@email.com,"Node.js, Express, MongoDB, REST API, GraphQL, JavaScript",6.5,M.Tech AI,9.06,None,0,9,211
+60,Kunal Khanna,kunal.khanna672@email.com,"Network Security, Ethical Hacking, Python, Linux, Penetration Testing",6.0,B.Sc Computer Science,6.77,None,4,17,1475
+61,Rajesh Desai,rajesh.desai112@email.com,"Kubernetes, Docker, Helm, Cloud, DevOps, Monitoring",5.9,B.Sc Computer Science,6.92,Scrum Master Certified,3,20,526
+62,Arjun Gupta,arjun.gupta424@email.com,"Solidity, Ethereum, Smart Contracts, Web3, JavaScript, Blockchain",5.7,B.Tech Computer Science,8.59,None,0,17,373
+63,Naveen Jain,naveen.jain489@email.com,"React Native, Flutter, Firebase, API Integration, Mobile Development",6.0,M.Tech,7.22,AWS Certified Solutions Architect,1,20,1225
+64,Megha Menon,megha.menon757@email.com,"Python, Django, Flask, REST API, PostgreSQL, Docker, Git",7.3,MCA,7.59,Oracle Certified Professional,0,12,1064
+65,Isha Agarwal,isha.agarwal898@email.com,"Python, Django, Flask, REST API, PostgreSQL, Docker, Git",0.1,B.Tech,8.29,PMP Certified,4,14,1363
+66,Smita Pillai,smita.pillai506@email.com,"SQL, Excel, Tableau, Power BI, Business Intelligence, Statistics",6.8,M.Sc Data Science,7.04,Coursera ML Specialization,5,5,989
+67,Suresh Nair,suresh.nair15@email.com,"Solidity, Ethereum, Smart Contracts, Web3, JavaScript, Blockchain",6.3,B.Tech,8.56,Microsoft Azure Certified,2,19,1358
+68,Shruti Arora,shruti.arora528@email.com,"Unity, C#, Game Development, 3D Modeling, Game Design",0.7,Diploma CS,6.36,None,7,10,558
+69,Rahul Sinha,rahul.sinha393@email.com,"Selenium, Python, Testing, Automation, JIRA, Manual Testing",3.6,M.Tech,9.63,None,9,23,1223
+70,Priya Sinha,priya.sinha670@email.com,"Networking, Cisco, TCP/IP, Routing, Firewalls, Linux",5.5,BCA,8.54,Docker Certified Associate,4,5,880
+71,Sandeep Kapoor,sandeep.kapoor707@email.com,"AWS, Docker, Kubernetes, Jenkins, Linux, CI/CD, Terraform",5.1,M.Tech,7.4,Certified Kubernetes Administrator,3,4,1029
+72,Simran Bose,simran.bose766@email.com,"Rust, Systems Programming, Performance Optimization, C++",3.0,B.Sc IT,8.09,None,8,25,1410
+73,Nidhi Das,nidhi.das697@email.com,"Rust, Systems Programming, Performance Optimization, C++",7.0,B.Tech Computer Science,8.0,Scrum Master Certified,5,2,1205
+74,Sanjay Kumar,sanjay.kumar849@email.com,"NLP, Python, NLTK, spaCy, Transformers, Deep Learning",7.2,B.Sc Computer Science,8.18,None,2,10,1115
+75,Sunil Joshi,sunil.joshi697@email.com,"Figma, Adobe XD, UI Design, Prototyping, Sketch, Wireframing",5.7,M.Sc Data Science,6.35,Scrum Master Certified,7,25,163
+76,Manoj Desai,manoj.desai526@email.com,"Angular, TypeScript, HTML, CSS, RxJS, JavaScript",3.7,BCA,8.12,None,0,12,571
+77,Rahul Bhat,rahul.bhat593@email.com,"Python, Pandas, NumPy, Data Visualization, SQL, Excel, Matplotlib",0.4,B.Tech IT,8.66,None,0,2,1016
+78,Vikram Agarwal,vikram.agarwal419@email.com,"Java, Python, Data Structures, Algorithms, OOP, Problem Solving",6.2,M.Tech AI,8.44,Red Hat Certified,5,12,968
+79,Ashish Saxena,ashish.saxena83@email.com,"OpenCV, Python, Computer Vision, Deep Learning, Image Processing",1.1,Integrated M.Tech,7.32,Oracle Certified Professional,8,12,1133
+80,Harsh Rao,harsh.rao855@email.com,"Python, Machine Learning, TensorFlow, Data Analysis, Statistics, SQL",6.0,M.Tech,7.76,None,6,17,826
+81,Megha Das,megha.das472@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",1.2,B.Sc Computer Science,9.56,Coursera ML Specialization,0,25,1402
+82,Ananya Thakur,ananya.thakur785@email.com,"JavaScript, React, HTML, CSS, Node.js, MongoDB, Express",1.9,B.Tech Computer Science,6.38,AWS Certified Solutions Architect,7,19,1426
+83,Arjun Das,arjun.das759@email.com,"Python, Django, Flask, REST API, PostgreSQL, Docker, Git",3.2,B.Sc Computer Science,8.05,AWS Certified Solutions Architect,2,16,642
+84,Megha Rajan,megha.rajan327@email.com,"Ansible, Terraform, AWS, Linux, Automation, Infrastructure",4.8,Diploma CS,9.11,Certified Kubernetes Administrator,4,4,1402
+85,Vishal Rao,vishal.rao424@email.com,"Android, Kotlin, Java, Firebase, REST API, Mobile Development",2.2,BCA,9.6,Oracle Certified Professional,10,21,924
+86,Laxmi Sethi,laxmi.sethi49@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",7.5,Diploma CS,7.45,Scrum Master Certified,5,22,902
+87,Naveen Chopra,naveen.chopra308@email.com,"Python, Apache Spark, Airflow, ETL, SQL, Data Engineering",1.5,BCA,7.8,Certified Kubernetes Administrator,4,22,345
+88,Sonali Kumar,sonali.kumar576@email.com,"Angular, TypeScript, HTML, CSS, RxJS, JavaScript",7.7,BCA,8.01,None,3,8,466
+89,Abhishek Patel,abhishek.patel945@email.com,"Ruby, Rails, PostgreSQL, REST API, Git, Web Development",6.8,B.Tech Computer Science,8.04,Microsoft Azure Certified,0,8,822
+90,Urmila Shukla,urmila.shukla41@email.com,"Python, Pandas, NumPy, Data Visualization, SQL, Excel, Matplotlib",1.5,M.Tech AI,8.23,None,3,15,477
+91,Abhishek Kapoor,abhishek.kapoor980@email.com,"Python, Machine Learning, TensorFlow, Data Analysis, Statistics, SQL",1.7,B.Sc Computer Science,9.66,Coursera ML Specialization,7,7,1474
+92,Urmila Bhat,urmila.bhat407@email.com,"Selenium, Python, Testing, Automation, JIRA, Manual Testing",4.4,M.Tech AI,7.08,Docker Certified Associate,8,20,785
+93,Pallavi Sinha,pallavi.sinha369@email.com,"Scala, Apache Spark, Big Data, Hadoop, SQL, Data Engineering",7.1,M.Sc Data Science,6.37,None,5,6,809
+94,Siddharth Bansal,siddharth.bansal47@email.com,"Ansible, Terraform, AWS, Linux, Automation, Infrastructure",6.9,B.Sc IT,6.55,TensorFlow Developer Certificate,8,18,1236
+95,Ananya Agarwal,ananya.agarwal157@email.com,"React Native, Flutter, Firebase, API Integration, Mobile Development",2.6,B.E. Computer Science,8.17,Certified Kubernetes Administrator,7,17,1390
+96,Kriti Sinha,kriti.sinha782@email.com,"R, Python, Statistics, Data Analysis, Machine Learning, Visualization",7.7,Diploma CS,8.81,Docker Certified Associate,2,23,771
+97,Shreya Desai,shreya.desai738@email.com,"OpenCV, Python, Computer Vision, Deep Learning, Image Processing",3.9,BCA,9.76,AWS Certified Solutions Architect,8,1,202
+98,Arjun Sharma,arjun.sharma423@email.com,"SQL, Excel, Tableau, Power BI, Business Intelligence, Statistics",6.7,B.Sc Computer Science,6.26,None,0,6,1085
+99,Manoj Pandey,manoj.pandey62@email.com,"Kubernetes, Docker, Helm, Cloud, DevOps, Monitoring",5.1,B.Tech,9.47,None,0,0,1139
+100,Ramesh Bansal,ramesh.bansal13@email.com,"JavaScript, React, HTML, CSS, Node.js, MongoDB, Express",4.2,M.Tech,8.04,None,0,16,1479
+101,Gayatri Nair,gayatri.nair110@email.com,"Python, Deep Learning, NLP, PyTorch, Computer Vision, TensorFlow",4.2,B.Sc Computer Science,6.73,Scrum Master Certified,4,11,597
+102,Karthik Patel,karthik.patel383@email.com,"Node.js, Express, MongoDB, REST API, GraphQL, JavaScript",3.7,B.Sc Computer Science,9.76,Certified Kubernetes Administrator,4,21,215
+103,Vikram Patel,vikram.patel416@email.com,"Python, Apache Spark, Airflow, ETL, SQL, Data Engineering",3.0,M.Sc Data Science,6.21,Google Cloud Certified,2,2,1073
+104,Gayatri Gandhi,gayatri.gandhi580@email.com,"Python, Deep Learning, NLP, PyTorch, Computer Vision, TensorFlow",7.2,BCA,6.87,None,4,1,202
+105,Swati Menon,swati.menon578@email.com,"Python, Django, Flask, REST API, PostgreSQL, Docker, Git",1.4,Integrated M.Tech,7.2,Microsoft Azure Certified,9,4,865
+106,Neha Kapoor,neha.kapoor167@email.com,"Ansible, Terraform, AWS, Linux, Automation, Infrastructure",1.9,Integrated M.Tech,9.23,None,5,12,336
+107,Rohan Kulkarni,rohan.kulkarni764@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",0.4,B.E. Computer Science,6.88,None,5,19,1307
+108,Aryan Tiwari,aryan.tiwari993@email.com,"Unity, C#, Game Development, 3D Modeling, Game Design",0.2,M.Tech,8.98,Docker Certified Associate,7,7,778
+109,Ramesh Saxena,ramesh.saxena443@email.com,"Java, Python, Data Structures, Algorithms, OOP, Problem Solving",5.4,Diploma CS,7.44,None,3,22,200
+110,Rohan Malhotra,rohan.malhotra158@email.com,"Python, Apache Spark, Airflow, ETL, SQL, Data Engineering",5.7,Diploma CS,6.59,None,5,11,268
+111,Divya Sharma,divya.sharma966@email.com,"Android, Kotlin, Java, Firebase, REST API, Mobile Development",3.6,M.Tech AI,7.03,None,1,5,932
+112,Rekha Krishnan,rekha.krishnan569@email.com,"Scala, Apache Spark, Big Data, Hadoop, SQL, Data Engineering",3.3,BCA,6.34,None,1,19,1274
+113,Sakshi Saxena,sakshi.saxena13@email.com,"Azure, Google Cloud, Terraform, Kubernetes, Networking, Python",3.3,M.Tech AI,6.32,None,3,18,1117
+114,Shreya Saxena,shreya.saxena174@email.com,"SQL, Excel, Tableau, Power BI, Business Intelligence, Statistics",2.2,M.Tech,7.87,None,2,13,615
+115,Ananya Kapoor,ananya.kapoor496@email.com,"Python, Pandas, NumPy, Data Visualization, SQL, Excel, Matplotlib",2.9,B.Sc Computer Science,8.74,None,9,19,450
+116,Manoj Gupta,manoj.gupta139@email.com,"Android, Kotlin, Java, Firebase, REST API, Mobile Development",0.1,B.E. Computer Science,7.26,None,5,14,735
+117,Gayatri Shukla,gayatri.shukla140@email.com,"Android, Kotlin, Java, Firebase, REST API, Mobile Development",2.6,B.Sc IT,6.76,PMP Certified,2,12,703
+118,Aditi Sethi,aditi.sethi991@email.com,"Ansible, Terraform, AWS, Linux, Automation, Infrastructure",6.3,B.Tech IT,7.43,None,5,3,1204
+119,Tanvi Murthy,tanvi.murthy559@email.com,"Java, Python, Data Structures, Algorithms, OOP, Problem Solving",5.5,BCA,6.1,Docker Certified Associate,3,14,646
+120,Karan Bansal,karan.bansal690@email.com,"R, Python, Statistics, Data Analysis, Machine Learning, Visualization",1.1,M.Tech,6.92,None,6,25,822
+121,Neha Khanna,neha.khanna613@email.com,"Swift, iOS Development, Xcode, REST API, Firebase",4.7,BCA,7.93,Red Hat Certified,8,1,786
+122,Ajay Shukla,ajay.shukla654@email.com,"React, TypeScript, Redux, HTML, CSS, JavaScript, Webpack",0.9,B.Sc Computer Science,8.5,Cisco CCNA,2,20,1304
+123,Anjali Rajan,anjali.rajan661@email.com,"Node.js, Express, MongoDB, REST API, GraphQL, JavaScript",7.7,B.Tech IT,9.67,Red Hat Certified,1,0,251
+124,Preeti Rao,preeti.rao523@email.com,"DevOps, Jenkins, Git, Docker, Linux, CI/CD, Monitoring",4.5,B.Sc IT,8.19,Docker Certified Associate,5,12,998
+125,Vidya Kulkarni,vidya.kulkarni155@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",8.0,M.Sc Data Science,6.4,Red Hat Certified,1,3,340
+126,Kunal Kapoor,kunal.kapoor352@email.com,"Go, Docker, Kubernetes, Microservices, Cloud, gRPC",6.3,BCA,7.84,None,1,14,1476
+127,Rekha Shah,rekha.shah69@email.com,"Android, Kotlin, Java, Firebase, REST API, Mobile Development",0.4,B.Sc IT,6.44,PMP Certified,10,3,1436
+128,Shreya Das,shreya.das529@email.com,"Java, Python, Data Structures, Algorithms, OOP, Problem Solving",4.4,B.Tech IT,8.13,Docker Certified Associate,3,25,879
+129,Isha Nair,isha.nair656@email.com,"C++, Data Structures, Algorithms, Problem Solving, OOP",3.2,B.Sc IT,8.33,Microsoft Azure Certified,7,18,929
+130,Shweta Sharma,shweta.sharma722@email.com,"Figma, Adobe XD, UI Design, Prototyping, Sketch, Wireframing",1.6,M.Tech AI,8.67,None,9,3,1149
+131,Isha Pandey,isha.pandey334@email.com,"React Native, Flutter, Firebase, API Integration, Mobile Development",3.7,M.Tech,8.55,None,8,20,691
+132,Aryan Saxena,aryan.saxena626@email.com,"Node.js, Express, MongoDB, REST API, GraphQL, JavaScript",4.7,B.Tech IT,7.34,Docker Certified Associate,9,5,1429
+133,Vivek Thakur,vivek.thakur605@email.com,"React, TypeScript, Redux, HTML, CSS, JavaScript, Webpack",5.4,B.Tech IT,6.45,None,1,5,814
+134,Ankit Kulkarni,ankit.kulkarni398@email.com,"Angular, TypeScript, HTML, CSS, RxJS, JavaScript",4.8,B.Tech,7.46,Oracle Certified Professional,7,20,1150
+135,Varun Krishnan,varun.krishnan171@email.com,"R, Python, Statistics, Data Analysis, Machine Learning, Visualization",2.3,MCA,7.2,Docker Certified Associate,9,1,785
+136,Priya Sethi,priya.sethi140@email.com,"React Native, Flutter, Firebase, API Integration, Mobile Development",6.5,BCA,7.92,None,6,21,1057
+137,Ananya Khanna,ananya.khanna501@email.com,"JavaScript, Vue.js, HTML, CSS, Webpack, Git, Bootstrap",0.7,BCA,9.02,Certified Kubernetes Administrator,4,1,612
+138,Deepak Menon,deepak.menon296@email.com,"JavaScript, Vue.js, HTML, CSS, Webpack, Git, Bootstrap",6.2,B.Tech,8.82,None,8,16,281
+139,Sushma Joshi,sushma.joshi275@email.com,"OpenCV, Python, Computer Vision, Deep Learning, Image Processing",6.6,B.Tech IT,8.06,AWS Certified Solutions Architect,7,17,497
+140,Ravi Gupta,ravi.gupta754@email.com,"Selenium, Python, Testing, Automation, JIRA, Manual Testing",2.4,BCA,7.71,Cisco CCNA,1,14,290
+141,Akash Bhat,akash.bhat831@email.com,"GraphQL, Node.js, React, MongoDB, API Development, TypeScript",5.5,Integrated M.Tech,8.7,Red Hat Certified,2,19,335
+142,Gaurav Bhat,gaurav.bhat825@email.com,"Java, Spring Boot, Microservices, MySQL, Git, Docker",4.6,BCA,7.07,None,2,10,1491
+143,Aditi Agarwal,aditi.agarwal587@email.com,"PHP, WordPress, HTML, CSS, JavaScript, MySQL, jQuery",7.6,BCA,9.74,Coursera ML Specialization,2,24,892
+144,Pooja Malhotra,pooja.malhotra888@email.com,"SQL, Excel, Tableau, Power BI, Business Intelligence, Statistics",5.6,MCA,6.95,PMP Certified,3,24,1434
+145,Karthik Sethi,karthik.sethi146@email.com,"Ansible, Terraform, AWS, Linux, Automation, Infrastructure",5.1,Diploma CS,7.57,Docker Certified Associate,1,20,240
+146,Shruti Kulkarni,shruti.kulkarni768@email.com,"PHP, WordPress, HTML, CSS, JavaScript, MySQL, jQuery",5.6,B.Tech IT,7.73,None,5,18,55
+147,Divya Bose,divya.bose651@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",6.8,M.Tech AI,8.03,Microsoft Azure Certified,6,6,1063
+148,Rajesh Shah,rajesh.shah849@email.com,"Azure, Google Cloud, Terraform, Kubernetes, Networking, Python",2.7,B.Tech,6.5,None,5,21,149
+149,Anjali Gupta,anjali.gupta642@email.com,"Go, Docker, Kubernetes, Microservices, Cloud, gRPC",0.1,Integrated M.Tech,6.6,Docker Certified Associate,0,13,464
+150,Harsh Kapoor,harsh.kapoor163@email.com,"PHP, WordPress, HTML, CSS, JavaScript, MySQL, jQuery",0.7,B.Tech IT,6.95,Cisco CCNA,10,20,388
+151,Arjun Tiwari,arjun.tiwari641@email.com,"Android, Kotlin, Java, Firebase, REST API, Mobile Development",5.8,M.Tech AI,6.89,None,1,0,487
+152,Bhavana Reddy,bhavana.reddy136@email.com,"GraphQL, Node.js, React, MongoDB, API Development, TypeScript",1.8,Diploma CS,7.69,Google Cloud Certified,5,3,914
+153,Harsh Jain,harsh.jain73@email.com,"PostgreSQL, MySQL, MongoDB, Database Design, SQL, Redis",3.1,B.Sc IT,9.06,Coursera ML Specialization,5,11,662
+154,Riya Saxena,riya.saxena793@email.com,"SQL, Excel, Tableau, Power BI, Business Intelligence, Statistics",5.1,Diploma CS,6.54,Scrum Master Certified,9,0,1299
+155,Shreya Khanna,shreya.khanna3491@email.com,"Python, Scikit-learn, Machine Learning, Statistics, Jupyter, Pandas",7.4,B.Tech,8.61,Microsoft Azure Certified,1,3,336
+156,Kavita Murthy,kavita.murthy748@email.com,"Python, Apache Spark, Airflow, ETL, SQL, Data Engineering",2.8,B.E. Computer Science,7.2,None,3,8,1370
+157,Rohan Das,rohan.das567@email.com,"Rust, Systems Programming, Performance Optimization, C++",4.8,B.Tech,7.08,Google Cloud Certified,10,9,470
+158,Vishal Shukla,vishal.shukla522@email.com,"React Native, Flutter, Firebase, API Integration, Mobile Development",6.0,M.Tech,8.46,Certified Kubernetes Administrator,7,12,280
+159,Akash Sethi,akash.sethi654@email.com,"Rust, Systems Programming, Performance Optimization, C++",0.6,BCA,9.75,PMP Certified,2,12,1214
+160,Ananya Pandey,ananya.pandey560@email.com,"Java, Python, Data Structures, Algorithms, OOP, Problem Solving",6.1,M.Tech AI,6.28,None,0,8,491
+161,Anjali Kumar,anjali.kumar972@email.com,"Node.js, Express, MongoDB, REST API, GraphQL, JavaScript",4.1,Diploma CS,8.71,Red Hat Certified,6,22,873
+162,Rohan Menon,rohan.menon551@email.com,"Kubernetes, Docker, Helm, Cloud, DevOps, Monitoring",1.2,B.Tech Computer Science,7.18,Scrum Master Certified,3,25,368
+163,Ajay Shah,ajay.shah401@email.com,"GraphQL, Node.js, React, MongoDB, API Development, TypeScript",5.1,Integrated M.Tech,8.47,None,4,22,945
+164,Akash Kumar,akash.kumar251@email.com,"React, TypeScript, Redux, HTML, CSS, JavaScript, Webpack",7.4,B.Tech Computer Science,7.72,AWS Certified Solutions Architect,4,21,1397
+165,Varun Joshi,varun.joshi13@email.com,"SQL, Excel, Tableau, Power BI, Business Intelligence, Statistics",5.6,MCA,7.89,Cisco CCNA,8,16,580
+166,Shreya Pandey,shreya.pandey130@email.com,"PHP, WordPress, HTML, CSS, JavaScript, MySQL, jQuery",5.9,B.Tech Computer Science,8.93,Google Cloud Certified,5,25,929
+167,Rajesh Pillai,rajesh.pillai66@email.com,"Network Security, Ethical Hacking, Python, Linux, Penetration Testing",5.7,B.Tech,8.38,None,7,16,787
+168,Pooja Sethi,pooja.sethi880@email.com,"Ansible, Terraform, AWS, Linux, Automation, Infrastructure",1.3,MCA,6.97,Coursera ML Specialization,9,21,286
+169,Megha Kulkarni,megha.kulkarni3@email.com,"Python, Django, Flask, REST API, PostgreSQL, Docker, Git",6.9,BCA,6.93,None,5,12,357
+170,Varun Singh,varun.singh567@email.com,"Angular, TypeScript, HTML, CSS, RxJS, JavaScript",1.8,B.Sc Computer Science,7.58,PMP Certified,4,2,1220
+171,Nikita Joshi,nikita.joshi515@email.com,"Java, Spring Boot, Microservices, MySQL, Git, Docker",1.4,M.Tech AI,7.96,AWS Certified Solutions Architect,6,2,1002
+172,Mohit Kapoor,mohit.kapoor336@email.com,"React, TypeScript, Redux, HTML, CSS, JavaScript, Webpack",4.4,BCA,7.4,None,9,25,672
+173,Zara Das,zara.das476@email.com,"Networking, Cisco, TCP/IP, Routing, Firewalls, Linux",4.7,M.Sc Data Science,9.79,Microsoft Azure Certified,8,24,552
+174,Simran Sharma,simran.sharma955@email.com,"Angular, TypeScript, HTML, CSS, RxJS, JavaScript",0.2,BCA,7.32,Google Cloud Certified,5,0,1396
+175,Ashish Kapoor,ashish.kapoor107@email.com,"Figma, Adobe XD, UI Design, Prototyping, Sketch, Wireframing",4.2,B.Sc Computer Science,7.6,AWS Certified Solutions Architect,2,22,623
+176,Divya Singh,divya.singh944@email.com,"PostgreSQL, MySQL, MongoDB, Database Design, SQL, Redis",7.2,BCA,7.57,Cisco CCNA,7,23,223
+177,Yash Gupta,yash.gupta518@email.com,"SQL, Excel, Tableau, Power BI, Business Intelligence, Statistics",5.1,B.E. Computer Science,6.28,AWS Certified Solutions Architect,6,21,317
+178,Akash Agarwal,akash.agarwal268@email.com,"Unity, C#, Game Development, 3D Modeling, Game Design",7.4,B.E. Computer Science,8.66,PMP Certified,5,14,606
+179,Megha Reddy,megha.reddy967@email.com,"React Native, Flutter, Firebase, API Integration, Mobile Development",1.1,M.Tech AI,8.22,None,1,5,970
+180,Sonali Shah,sonali.shah417@email.com,"AWS, Docker, Kubernetes, Jenkins, Linux, CI/CD, Terraform",4.3,M.Tech AI,6.79,None,7,8,295
+181,Divya Mehta,divya.mehta827@email.com,"Android, Kotlin, Java, Firebase, REST API, Mobile Development",6.6,B.Sc IT,8.29,Microsoft Azure Certified,5,4,236
+182,Ritika Mishra,ritika.mishra406@email.com,"Scala, Apache Spark, Big Data, Hadoop, SQL, Data Engineering",0.4,M.Tech,6.99,Oracle Certified Professional,0,12,976
+183,Laxmi Krishnan,laxmi.krishnan256@email.com,"Python, Deep Learning, NLP, PyTorch, Computer Vision, TensorFlow",3.7,M.Tech AI,9.02,Coursera ML Specialization,0,1,505
+184,Harsh Iyer,harsh.iyer844@email.com,"Node.js, Express, MongoDB, REST API, GraphQL, JavaScript",3.0,Diploma CS,9.56,None,9,18,580
+185,Neha Verma,neha.verma67@email.com,"React Native, Flutter, Firebase, API Integration, Mobile Development",7.2,M.Sc Data Science,9.08,None,5,3,137
+186,Sonali Kumar,sonali.kumar173@email.com,"Ansible, Terraform, AWS, Linux, Automation, Infrastructure",3.5,B.Sc IT,7.5,Google Cloud Certified,6,21,923
+187,Varun Mishra,varun.mishra220@email.com,"Java, Python, Data Structures, Algorithms, OOP, Problem Solving",2.2,M.Sc Data Science,9.36,AWS Certified Solutions Architect,9,19,1313
+188,Ritika Agarwal,ritika.agarwal511@email.com,"Angular, TypeScript, HTML, CSS, RxJS, JavaScript",7.1,M.Sc Data Science,6.23,TensorFlow Developer Certificate,6,4,908
+189,Tanvi Pillai,tanvi.pillai256@email.com,"OpenCV, Python, Computer Vision, Deep Learning, Image Processing",6.4,B.E. Computer Science,8.97,Cisco CCNA,7,17,1042
+190,Kunal Rajan,kunal.rajan515@email.com,"Unity, C#, Game Development, 3D Modeling, Game Design",3.1,MCA,6.1,Certified Kubernetes Administrator,0,25,625
+191,Pooja Jain,pooja.jain543@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",6.1,B.Sc Computer Science,9.7,Coursera ML Specialization,3,21,543
+192,Rajesh Menon,rajesh.menon836@email.com,"Java, Spring Boot, Microservices, MySQL, Git, Docker",6.1,B.Sc Computer Science,8.19,None,5,5,410
+193,Akash Murthy,akash.murthy326@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",7.3,BCA,8.67,Cisco CCNA,9,18,341
+194,Ganesh Iyer,ganesh.iyer857@email.com,"R, Python, Statistics, Data Analysis, Machine Learning, Visualization",4.3,MCA,7.86,None,0,7,1282
+195,Deepak Verma,deepak.verma540@email.com,"Swift, iOS Development, Xcode, REST API, Firebase",0.0,B.Tech,6.77,None,5,22,413
+196,Sakshi Kumar,sakshi.kumar23@email.com,"Python, Scikit-learn, Machine Learning, Statistics, Jupyter, Pandas",4.7,MCA,8.94,Scrum Master Certified,5,2,815
+197,Karthik Murthy,karthik.murthy104@email.com,"Solidity, Ethereum, Smart Contracts, Web3, JavaScript, Blockchain",2.4,MCA,9.71,Red Hat Certified,10,15,1379
+198,Siddharth Nair,siddharth.nair725@email.com,"NLP, Python, NLTK, spaCy, Transformers, Deep Learning",5.5,B.Tech,8.99,Certified Kubernetes Administrator,10,18,409
+199,Ashish Kapoor,ashish.kapoor752@email.com,"Azure, Google Cloud, Terraform, Kubernetes, Networking, Python",1.0,B.Sc IT,6.01,None,9,1,422
+200,Urmila Shah,urmila.shah944@email.com,"Kubernetes, Docker, Helm, Cloud, DevOps, Monitoring",1.8,B.Tech,6.4,None,2,10,209
+201,Akash Mishra,akash.mishra328@email.com,"JavaScript, Vue.js, HTML, CSS, Webpack, Git, Bootstrap",5.1,B.Tech Computer Science,9.12,PMP Certified,7,0,593
+202,Gaurav Das,gaurav.das710@email.com,"Python, Pandas, NumPy, Data Visualization, SQL, Excel, Matplotlib",2.8,M.Tech AI,6.41,Google Cloud Certified,0,12,947
+203,Ananya Mehta,ananya.mehta906@email.com,"Angular, TypeScript, HTML, CSS, RxJS, JavaScript",3.9,B.E. Computer Science,7.33,None,1,15,1233
+204,Deepak Mehta,deepak.mehta463@email.com,"Python, Pandas, NumPy, Data Visualization, SQL, Excel, Matplotlib",6.4,BCA,7.12,PMP Certified,4,3,201
+205,Kriti Mehta,kriti.mehta910@email.com,"Python, Apache Spark, Airflow, ETL, SQL, Data Engineering",1.3,B.Tech Computer Science,8.08,None,5,19,1306
+206,Bhavana Verma,bhavana.verma442@email.com,"JavaScript, Vue.js, HTML, CSS, Webpack, Git, Bootstrap",4.9,B.E. Computer Science,6.6,Coursera ML Specialization,5,6,439
+207,Naveen Krishnan,naveen.krishnan740@email.com,"OpenCV, Python, Computer Vision, Deep Learning, Image Processing",2.1,M.Tech,7.13,Coursera ML Specialization,0,12,1220
+208,Ramesh Sethi,ramesh.sethi158@email.com,"Java, Spring Boot, Microservices, MySQL, Git, Docker",2.9,B.E. Computer Science,6.33,None,3,3,102
+209,Gaurav Mehta,gaurav.mehta654@email.com,"Azure, Google Cloud, Terraform, Kubernetes, Networking, Python",7.8,M.Sc Data Science,9.21,None,6,15,1051
+210,Preeti Patel,preeti.patel658@email.com,"OpenCV, Python, Computer Vision, Deep Learning, Image Processing",3.1,B.Tech IT,9.36,Cisco CCNA,2,14,141
+211,Preeti Khanna,preeti.khanna477@email.com,"Network Security, Ethical Hacking, Python, Linux, Penetration Testing",1.8,M.Tech,8.14,None,10,3,225
+212,Kunal Menon,kunal.menon424@email.com,"GraphQL, Node.js, React, MongoDB, API Development, TypeScript",1.8,BCA,9.2,Scrum Master Certified,6,17,1457
+213,Pavan Rajan,pavan.rajan903@email.com,"Selenium, Python, Testing, Automation, JIRA, Manual Testing",3.8,B.Tech Computer Science,7.5,AWS Certified Solutions Architect,8,18,1108
+214,Sushma Thakur,sushma.thakur151@email.com,"AWS, Docker, Kubernetes, Jenkins, Linux, CI/CD, Terraform",7.6,M.Sc Data Science,6.66,Oracle Certified Professional,3,25,444
+215,Harsh Singh,harsh.singh434@email.com,"React, TypeScript, Redux, HTML, CSS, JavaScript, Webpack",7.9,B.E. Computer Science,6.77,None,9,8,704
+216,Karan Patel,karan.patel398@email.com,"NLP, Python, NLTK, spaCy, Transformers, Deep Learning",3.2,B.Tech IT,9.26,Scrum Master Certified,7,0,1484
+217,Zara Murthy,zara.murthy536@email.com,"Angular, TypeScript, HTML, CSS, RxJS, JavaScript",0.9,MCA,6.56,Coursera ML Specialization,1,18,256
+218,Mohit Menon,mohit.menon902@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",7.0,M.Tech,7.46,None,9,19,1018
+219,Vikram Nair,vikram.nair283@email.com,"Node.js, Express, MongoDB, REST API, GraphQL, JavaScript",1.2,B.Tech,8.59,None,0,12,728
+220,Akash Kumar,akash.kumar764@email.com,"Swift, iOS Development, Xcode, REST API, Firebase",7.4,B.Tech IT,6.08,None,4,8,1056
+221,Aditya Rao,aditya.rao138@email.com,"Android, Kotlin, Java, Firebase, REST API, Mobile Development",7.8,M.Sc Data Science,8.94,PMP Certified,4,23,903
+222,Urmila Patel,urmila.patel193@email.com,"Ruby, Rails, PostgreSQL, REST API, Git, Web Development",1.7,Integrated M.Tech,7.55,None,8,11,165
+223,Madhuri Mehta,madhuri.mehta68@email.com,"Android, Kotlin, Java, Firebase, REST API, Mobile Development",5.7,B.E. Computer Science,6.52,Scrum Master Certified,9,0,405
+224,Manish Iyer,manish.iyer858@email.com,"Java, Spring Boot, Microservices, MySQL, Git, Docker",2.0,M.Sc Data Science,6.19,Cisco CCNA,3,8,804
+225,Sonali Kulkarni,sonali.kulkarni407@email.com,"AWS, Docker, Kubernetes, Jenkins, Linux, CI/CD, Terraform",5.4,B.Sc Computer Science,7.42,Docker Certified Associate,2,15,1251
+226,Ramesh Mishra,ramesh.mishra353@email.com,"JavaScript, Vue.js, HTML, CSS, Webpack, Git, Bootstrap",6.7,M.Tech,8.85,None,4,0,841
+227,Arjun Mehta,arjun.mehta875@email.com,"Ansible, Terraform, AWS, Linux, Automation, Infrastructure",6.2,B.Sc Computer Science,9.26,Certified Kubernetes Administrator,10,6,601
+228,Naveen Kulkarni,naveen.kulkarni21@email.com,"Python, Machine Learning, TensorFlow, Data Analysis, Statistics, SQL",3.8,MCA,8.46,Google Cloud Certified,3,8,1295
+229,Pallavi Malhotra,pallavi.malhotra434@email.com,"Python, Apache Spark, Airflow, ETL, SQL, Data Engineering",6.8,M.Sc Data Science,6.96,Docker Certified Associate,4,21,1116
+230,Zara Tiwari,zara.tiwari599@email.com,"Python, Deep Learning, NLP, PyTorch, Computer Vision, TensorFlow",0.1,Diploma CS,9.67,Cisco CCNA,8,20,1266
+231,Urmila Agarwal,urmila.agarwal306@email.com,"Python, Deep Learning, NLP, PyTorch, Computer Vision, TensorFlow",3.9,B.Tech IT,9.76,PMP Certified,4,8,1393
+232,Vivek Iyer,vivek.iyer154@email.com,"DevOps, Jenkins, Git, Docker, Linux, CI/CD, Monitoring",6.1,BCA,9.06,None,10,10,1444
+233,Riya Verma,riya.verma672@email.com,"R, Python, Statistics, Data Analysis, Machine Learning, Visualization",8.0,M.Tech,9.45,None,6,23,122
+234,Yash Rajan,yash.rajan836@email.com,"React Native, Flutter, Firebase, API Integration, Mobile Development",2.7,B.Sc IT,6.84,None,10,25,1024
+235,Tanya Kulkarni,tanya.kulkarni308@email.com,"JavaScript, Vue.js, HTML, CSS, Webpack, Git, Bootstrap",6.7,BCA,6.69,Coursera ML Specialization,7,4,579
+236,Laxmi Nair,laxmi.nair970@email.com,"Solidity, Ethereum, Smart Contracts, Web3, JavaScript, Blockchain",5.2,B.Sc Computer Science,7.35,None,6,25,728
+237,Nikita Sinha,nikita.sinha600@email.com,"Azure, Google Cloud, Terraform, Kubernetes, Networking, Python",3.7,B.Tech Computer Science,7.79,None,7,6,1074
+238,Kavita Saxena,kavita.saxena543@email.com,"Android, Kotlin, Java, Firebase, REST API, Mobile Development",3.3,Integrated M.Tech,9.25,None,3,10,888
+239,Ganesh Bose,ganesh.bose147@email.com,"Unity, C#, Game Development, 3D Modeling, Game Design",6.9,MCA,8.96,None,5,20,412
+240,Siddharth Kumar,siddharth.kumar5@email.com,"Ruby, Rails, PostgreSQL, REST API, Git, Web Development",2.2,M.Tech AI,8.94,Oracle Certified Professional,7,25,230
+241,Harsh Thakur,harsh.thakur445@email.com,"C++, Data Structures, Algorithms, Problem Solving, OOP",3.2,M.Sc Data Science,7.46,AWS Certified Solutions Architect,8,6,814
+242,Priya Shah,priya.shah776@email.com,"DevOps, Jenkins, Git, Docker, Linux, CI/CD, Monitoring",1.5,Diploma CS,6.02,Certified Kubernetes Administrator,3,22,755
+243,Pallavi Desai,pallavi.desai106@email.com,"Python, Apache Spark, Airflow, ETL, SQL, Data Engineering",4.0,M.Tech,6.63,AWS Certified Solutions Architect,4,9,983
+244,Vishal Shukla,vishal.shukla537@email.com,"Solidity, Ethereum, Smart Contracts, Web3, JavaScript, Blockchain",3.5,Diploma CS,9.78,PMP Certified,7,11,435
+245,Shreya Tiwari,shreya.tiwari20@email.com,"PostgreSQL, MySQL, MongoDB, Database Design, SQL, Redis",1.8,MCA,6.8,Google Cloud Certified,9,16,396
+246,Kavita Pandey,kavita.pandey729@email.com,"Python, Django, Flask, REST API, PostgreSQL, Docker, Git",3.0,Diploma CS,6.97,None,9,1,1266
+247,Arjun Gupta,arjun.gupta670@email.com,"JavaScript, React, HTML, CSS, Node.js, MongoDB, Express",0.4,B.Tech Computer Science,7.58,None,1,17,567
+248,Pavan Chopra,pavan.chopra211@email.com,"Python, Machine Learning, TensorFlow, Data Analysis, Statistics, SQL",2.4,Diploma CS,6.38,Scrum Master Certified,4,19,1290
+249,Riya Bansal,riya.bansal851@email.com,"Python, Deep Learning, NLP, PyTorch, Computer Vision, TensorFlow",4.1,B.Tech,6.45,Coursera ML Specialization,1,15,456
+250,Urmila Iyer,urmila.iyer797@email.com,"Network Security, Ethical Hacking, Python, Linux, Penetration Testing",6.7,B.Sc Computer Science,7.36,Red Hat Certified,4,5,130
+251,Ramesh Sethi,ramesh.sethi933@email.com,"Figma, Adobe XD, UI Design, Prototyping, Sketch, Wireframing",5.5,M.Sc Data Science,7.26,Google Cloud Certified,0,21,232
+252,Sanjay Rajan,sanjay.rajan686@email.com,"R, Python, Statistics, Data Analysis, Machine Learning, Visualization",1.2,B.Tech Computer Science,8.96,None,1,8,1369
+253,Megha Bose,megha.bose304@email.com,"Network Security, Ethical Hacking, Python, Linux, Penetration Testing",3.7,B.Tech Computer Science,9.09,AWS Certified Solutions Architect,4,11,1436
+254,Siddharth Arora,siddharth.arora757@email.com,"AWS, Docker, Kubernetes, Jenkins, Linux, CI/CD, Terraform",0.8,M.Tech AI,9.38,Google Cloud Certified,2,21,1375
+255,Shreya Gandhi,shreya.gandhi367@email.com,"Ruby, Rails, PostgreSQL, REST API, Git, Web Development",7.6,M.Tech,9.34,None,5,10,424
+256,Sanjay Tiwari,sanjay.tiwari410@email.com,"Go, Docker, Kubernetes, Microservices, Cloud, gRPC",2.2,B.E. Computer Science,8.62,None,6,20,391
+257,Sanjay Desai,sanjay.desai713@email.com,"Java, Spring Boot, Microservices, MySQL, Git, Docker",7.9,Integrated M.Tech,6.61,Red Hat Certified,9,15,1215
+258,Sunil Nair,sunil.nair626@email.com,"Python, Apache Spark, Airflow, ETL, SQL, Data Engineering",6.2,B.Tech,6.11,None,7,15,281
+259,Naveen Khanna,naveen.khanna48@email.com,"Python, Pandas, NumPy, Data Visualization, SQL, Excel, Matplotlib",2.1,B.Tech IT,6.05,Scrum Master Certified,9,23,1207
+260,Deepak Gandhi,deepak.gandhi532@email.com,"DevOps, Jenkins, Git, Docker, Linux, CI/CD, Monitoring",5.5,B.Tech,6.36,Certified Kubernetes Administrator,7,11,1409
+261,Shweta Chopra,shweta.chopra860@email.com,"NLP, Python, NLTK, spaCy, Transformers, Deep Learning",7.1,B.Tech,6.21,Oracle Certified Professional,8,15,1065
+262,Shreya Reddy,shreya.reddy770@email.com,"R, Python, Statistics, Data Analysis, Machine Learning, Visualization",2.6,B.Tech IT,9.69,AWS Certified Solutions Architect,8,7,1177
+263,Ashish Tiwari,ashish.tiwari837@email.com,"Selenium, Python, Testing, Automation, JIRA, Manual Testing",0.6,M.Sc Data Science,9.04,Docker Certified Associate,1,15,965
+264,Siddharth Joshi,siddharth.joshi510@email.com,"JavaScript, React, HTML, CSS, Node.js, MongoDB, Express",0.8,B.E. Computer Science,6.14,None,0,2,1287
+265,Zara Kapoor,zara.kapoor912@email.com,"Scala, Apache Spark, Big Data, Hadoop, SQL, Data Engineering",4.5,Diploma CS,8.55,PMP Certified,5,1,506
+266,Manoj Gandhi,manoj.gandhi574@email.com,"Kubernetes, Docker, Helm, Cloud, DevOps, Monitoring",4.8,B.Sc IT,8.5,Docker Certified Associate,1,3,1399
+267,Deepak Sharma,deepak.sharma350@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",6.6,M.Tech AI,7.11,Scrum Master Certified,5,22,267
+268,Anjali Mehta,anjali.mehta505@email.com,"SQL, Excel, Tableau, Power BI, Business Intelligence, Statistics",6.6,B.Sc IT,8.74,Coursera ML Specialization,4,19,451
+269,Manish Joshi,manish.joshi953@email.com,"Node.js, Express, MongoDB, REST API, GraphQL, JavaScript",1.7,Integrated M.Tech,8.97,PMP Certified,1,24,898
+270,Anjali Murthy,anjali.murthy127@email.com,"Ruby, Rails, PostgreSQL, REST API, Git, Web Development",3.7,B.Tech,9.63,None,7,0,1136
+271,Arjun Krishnan,arjun.krishnan958@email.com,"C++, Data Structures, Algorithms, Problem Solving, OOP",6.7,M.Sc Data Science,9.51,Oracle Certified Professional,9,5,312
+272,Meera Saxena,meera.saxena674@email.com,"Rust, Systems Programming, Performance Optimization, C++",4.8,B.Tech IT,7.92,None,6,19,1468
+273,Ritika Malhotra,ritika.malhotra408@email.com,"Solidity, Ethereum, Smart Contracts, Web3, JavaScript, Blockchain",7.8,M.Sc Data Science,9.06,None,6,19,1483
+274,Madhuri Kapoor,madhuri.kapoor864@email.com,"NLP, Python, NLTK, spaCy, Transformers, Deep Learning",6.9,B.Sc IT,8.8,None,10,6,461
+275,Gaurav Thakur,gaurav.thakur732@email.com,"Azure, Google Cloud, Terraform, Kubernetes, Networking, Python",5.5,Diploma CS,6.5,Oracle Certified Professional,8,17,1471
+276,Sakshi Joshi,sakshi.joshi780@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",4.5,B.Tech,8.17,Red Hat Certified,10,23,1143
+277,Mohit Arora,mohit.arora828@email.com,"Python, Machine Learning, TensorFlow, Data Analysis, Statistics, SQL",4.2,BCA,7.45,AWS Certified Solutions Architect,10,1,459
+278,Rajesh Mehta,rajesh.mehta294@email.com,"Network Security, Ethical Hacking, Python, Linux, Penetration Testing",1.2,BCA,8.62,None,3,24,1158
+279,Vikram Mishra,vikram.mishra834@email.com,"Ruby, Rails, PostgreSQL, REST API, Git, Web Development",0.8,Integrated M.Tech,8.57,None,3,23,1375
+280,Laxmi Saxena,laxmi.saxena244@email.com,"Scala, Apache Spark, Big Data, Hadoop, SQL, Data Engineering",6.3,M.Tech AI,8.65,AWS Certified Solutions Architect,6,12,903
+281,Siddharth Krishnan,siddharth.krishnan56@email.com,"Python, Machine Learning, TensorFlow, Data Analysis, Statistics, SQL",5.9,B.Sc Computer Science,8.36,Docker Certified Associate,3,20,1493
+282,Nikita Murthy,nikita.murthy560@email.com,"Rust, Systems Programming, Performance Optimization, C++",1.6,B.Sc IT,9.66,None,7,5,1448
+283,Neha Nair,neha.nair986@email.com,"Java, Python, Data Structures, Algorithms, OOP, Problem Solving",5.9,B.Tech Computer Science,7.43,Red Hat Certified,4,17,591
+284,Harsh Mehta,harsh.mehta599@email.com,"Network Security, Ethical Hacking, Python, Linux, Penetration Testing",0.0,M.Sc Data Science,8.7,None,0,4,710
+285,Aryan Kumar,aryan.kumar793@email.com,"Kubernetes, Docker, Helm, Cloud, DevOps, Monitoring",6.7,M.Tech,7.86,None,5,2,1499
+286,Siddharth Pillai,siddharth.pillai226@email.com,"Java, Python, Data Structures, Algorithms, OOP, Problem Solving",4.2,M.Tech AI,7.92,Red Hat Certified,8,17,876
+287,Divya Mishra,divya.mishra227@email.com,"Figma, Adobe XD, UI Design, Prototyping, Sketch, Wireframing",5.3,B.Tech IT,7.37,Microsoft Azure Certified,9,16,1022
+288,Laxmi Sharma,laxmi.sharma118@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",3.6,Diploma CS,8.33,Certified Kubernetes Administrator,0,21,707
+289,Ashish Joshi,ashish.joshi396@email.com,"Network Security, Ethical Hacking, Python, Linux, Penetration Testing",4.3,M.Tech,6.09,Scrum Master Certified,5,16,1091
+290,Rekha Sethi,rekha.sethi45@email.com,"Azure, Google Cloud, Terraform, Kubernetes, Networking, Python",7.2,B.Sc Computer Science,7.22,None,1,5,1151
+291,Ajay Sharma,ajay.sharma642@email.com,"Python, Pandas, NumPy, Data Visualization, SQL, Excel, Matplotlib",1.7,Diploma CS,8.94,Red Hat Certified,1,6,1151
+292,Gayatri Reddy,gayatri.reddy765@email.com,"Python, Scikit-learn, Machine Learning, Statistics, Jupyter, Pandas",0.2,B.Sc IT,7.26,None,1,1,414
+293,Suresh Krishnan,suresh.krishnan73@email.com,"Ansible, Terraform, AWS, Linux, Automation, Infrastructure",6.6,M.Tech,7.55,Docker Certified Associate,10,12,936
+294,Siddharth Verma,siddharth.verma399@email.com,"AWS, Docker, Kubernetes, Jenkins, Linux, CI/CD, Terraform",4.3,Diploma CS,8.74,None,9,1,1485
+295,Neha Mishra,neha.mishra951@email.com,"Scala, Apache Spark, Big Data, Hadoop, SQL, Data Engineering",0.8,M.Tech AI,8.61,None,4,24,946
+296,Ashish Tiwari,ashish.tiwari842@email.com,"JavaScript, React, HTML, CSS, Node.js, MongoDB, Express",3.8,BCA,6.84,None,8,9,1348
+297,Ankit Kapoor,ankit.kapoor694@email.com,"Networking, Cisco, TCP/IP, Routing, Firewalls, Linux",7.7,BCA,8.1,None,2,3,135
+298,Rahul Rajan,rahul.rajan611@email.com,"Node.js, Express, MongoDB, REST API, GraphQL, JavaScript",4.3,B.Tech Computer Science,7.16,Cisco CCNA,3,13,1372
+299,Madhuri Chopra,madhuri.chopra165@email.com,"Java, Python, Data Structures, Algorithms, OOP, Problem Solving",1.8,Integrated M.Tech,6.96,Coursera ML Specialization,2,21,1211
+300,Arjun Krishnan,arjun.krishnan473@email.com,"NLP, Python, NLTK, spaCy, Transformers, Deep Learning",0.6,Diploma CS,6.26,Coursera ML Specialization,3,23,1239
+301,Tarun Gandhi,tarun.gandhi366@email.com,"SQL, Excel, Tableau, Power BI, Business Intelligence, Statistics",5.4,B.Sc Computer Science,6.38,None,3,10,1045
+302,Rekha Gandhi,rekha.gandhi632@email.com,"Android, Kotlin, Java, Firebase, REST API, Mobile Development",5.5,MCA,8.15,Cisco CCNA,5,13,395
+303,Rahul Shah,rahul.shah253@email.com,"PostgreSQL, MySQL, MongoDB, Database Design, SQL, Redis",5.7,Diploma CS,7.66,Cisco CCNA,2,21,729
+304,Bhavana Bose,bhavana.bose457@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",6.2,M.Sc Data Science,8.1,Oracle Certified Professional,10,19,217
+305,Swati Desai,swati.desai913@email.com,"OpenCV, Python, Computer Vision, Deep Learning, Image Processing",1.6,B.Sc IT,9.37,None,1,0,1088
+306,Sneha Murthy,sneha.murthy593@email.com,"Node.js, Express, MongoDB, REST API, GraphQL, JavaScript",6.2,B.Sc Computer Science,9.44,None,4,17,1155
+307,Pavan Chopra,pavan.chopra375@email.com,"Node.js, Express, MongoDB, REST API, GraphQL, JavaScript",1.8,M.Tech AI,8.24,None,2,14,1076
+308,Madhuri Patel,madhuri.patel407@email.com,"Networking, Cisco, TCP/IP, Routing, Firewalls, Linux",4.0,Diploma CS,6.91,Oracle Certified Professional,8,4,963
+309,Nikhil Nair,nikhil.nair580@email.com,"Ansible, Terraform, AWS, Linux, Automation, Infrastructure",5.3,MCA,8.8,None,5,1,498
+310,Tarun Rao,tarun.rao65@email.com,"Network Security, Ethical Hacking, Python, Linux, Penetration Testing",3.0,BCA,8.54,Scrum Master Certified,5,12,1011
+311,Manoj Singh,manoj.singh41@email.com,"Unity, C#, Game Development, 3D Modeling, Game Design",0.8,BCA,8.41,TensorFlow Developer Certificate,4,18,1164
+312,Ganesh Nair,ganesh.nair386@email.com,"Python, Apache Spark, Airflow, ETL, SQL, Data Engineering",2.9,Diploma CS,9.41,None,8,8,820
+313,Deepak Pillai,deepak.pillai416@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",6.5,B.Tech IT,7.85,None,9,0,1077
+314,Riya Khanna,riya.khanna170@email.com,"PostgreSQL, MySQL, MongoDB, Database Design, SQL, Redis",0.6,Diploma CS,7.07,None,2,5,791
+315,Urmila Joshi,urmila.joshi677@email.com,"PostgreSQL, MySQL, MongoDB, Database Design, SQL, Redis",3.3,B.Tech IT,8.74,None,10,15,1031
+316,Gaurav Murthy,gaurav.murthy166@email.com,"Angular, TypeScript, HTML, CSS, RxJS, JavaScript",0.2,BCA,6.49,Oracle Certified Professional,2,20,1099
+317,Anjali Rajan,anjali.rajan151@email.com,"Java, Spring Boot, Microservices, MySQL, Git, Docker",1.3,MCA,7.96,None,9,18,1355
+318,Amit Agarwal,amit.agarwal970@email.com,"React, TypeScript, Redux, HTML, CSS, JavaScript, Webpack",1.7,B.Tech,9.77,None,2,7,891
+319,Aryan Chopra,aryan.chopra814@email.com,"GraphQL, Node.js, React, MongoDB, API Development, TypeScript",6.6,MCA,8.37,Scrum Master Certified,4,5,1454
+320,Kriti Bose,kriti.bose611@email.com,"GraphQL, Node.js, React, MongoDB, API Development, TypeScript",0.6,B.E. Computer Science,7.46,Coursera ML Specialization,0,6,1120
+321,Sandeep Bansal,sandeep.bansal847@email.com,"Python, Scikit-learn, Machine Learning, Statistics, Jupyter, Pandas",4.8,MCA,7.81,AWS Certified Solutions Architect,8,16,290
+322,Divya Jain,divya.jain676@email.com,"SQL, Excel, Tableau, Power BI, Business Intelligence, Statistics",7.2,BCA,9.14,Red Hat Certified,8,13,808
+323,Anjali Pillai,anjali.pillai440@email.com,"PostgreSQL, MySQL, MongoDB, Database Design, SQL, Redis",7.5,M.Sc Data Science,9.0,None,5,18,1476
+324,Sushma Gupta,sushma.gupta436@email.com,"SQL, Excel, Tableau, Power BI, Business Intelligence, Statistics",2.0,M.Tech AI,6.88,None,4,19,1163
+325,Naveen Sinha,naveen.sinha194@email.com,"Python, Machine Learning, TensorFlow, Data Analysis, Statistics, SQL",5.7,M.Tech AI,6.03,Scrum Master Certified,1,16,64
+326,Ashish Bhat,ashish.bhat705@email.com,"Unity, C#, Game Development, 3D Modeling, Game Design",3.3,B.Tech Computer Science,6.59,TensorFlow Developer Certificate,4,17,917
+327,Ganesh Pandey,ganesh.pandey627@email.com,"PHP, WordPress, HTML, CSS, JavaScript, MySQL, jQuery",7.9,B.E. Computer Science,8.87,Red Hat Certified,8,25,1191
+328,Bhavana Nair,bhavana.nair380@email.com,"NLP, Python, NLTK, spaCy, Transformers, Deep Learning",4.4,M.Tech,9.76,Cisco CCNA,6,23,332
+329,Kavita Rao,kavita.rao458@email.com,"JavaScript, Vue.js, HTML, CSS, Webpack, Git, Bootstrap",0.8,BCA,7.52,PMP Certified,8,19,1477
+330,Arjun Mehta,arjun.mehta399@email.com,"Python, Machine Learning, TensorFlow, Data Analysis, Statistics, SQL",6.4,Integrated M.Tech,6.55,Red Hat Certified,1,2,588
+331,Deepak Pandey,deepak.pandey82@email.com,"Rust, Systems Programming, Performance Optimization, C++",0.3,B.E. Computer Science,9.54,None,9,20,1117
+332,Mohit Shukla,mohit.shukla59@email.com,"Java, Python, Data Structures, Algorithms, OOP, Problem Solving",5.1,M.Sc Data Science,6.04,Scrum Master Certified,4,6,118
+333,Aryan Kulkarni,aryan.kulkarni529@email.com,"PostgreSQL, MySQL, MongoDB, Database Design, SQL, Redis",4.9,Diploma CS,6.14,Certified Kubernetes Administrator,10,0,372
+334,Divya Malhotra,divya.malhotra799@email.com,"Node.js, Express, MongoDB, REST API, GraphQL, JavaScript",2.8,B.E. Computer Science,7.54,Microsoft Azure Certified,8,0,1491
+335,Karan Patel,karan.patel563@email.com,"Azure, Google Cloud, Terraform, Kubernetes, Networking, Python",5.8,BCA,9.48,Cisco CCNA,5,8,513
+336,Urmila Iyer,urmila.iyer466@email.com,"Node.js, Express, MongoDB, REST API, GraphQL, JavaScript",4.6,M.Tech,6.67,Scrum Master Certified,1,17,198
+337,Sandeep Agarwal,sandeep.agarwal349@email.com,"AWS, Docker, Kubernetes, Jenkins, Linux, CI/CD, Terraform",6.4,M.Tech,9.33,TensorFlow Developer Certificate,7,12,1203
+338,Bhavana Das,bhavana.das776@email.com,"Solidity, Ethereum, Smart Contracts, Web3, JavaScript, Blockchain",7.7,M.Sc Data Science,8.59,Google Cloud Certified,7,3,578
+339,Karan Saxena,karan.saxena649@email.com,"PostgreSQL, MySQL, MongoDB, Database Design, SQL, Redis",5.4,B.Sc Computer Science,9.04,Red Hat Certified,5,16,1147
+340,Priya Sinha,priya.sinha255@email.com,"Azure, Google Cloud, Terraform, Kubernetes, Networking, Python",0.7,Diploma CS,8.85,PMP Certified,1,17,415
+341,Pavan Shah,pavan.shah363@email.com,"Figma, Adobe XD, UI Design, Prototyping, Sketch, Wireframing",7.2,M.Tech,6.69,Microsoft Azure Certified,7,23,458
+342,Akash Das,akash.das894@email.com,"Network Security, Ethical Hacking, Python, Linux, Penetration Testing",1.7,B.Sc Computer Science,9.17,Cisco CCNA,2,24,268
+343,Kavita Patel,kavita.patel693@email.com,"R, Python, Statistics, Data Analysis, Machine Learning, Visualization",4.9,M.Tech AI,9.26,AWS Certified Solutions Architect,7,11,1321
+344,Siddharth Sethi,siddharth.sethi920@email.com,"Ansible, Terraform, AWS, Linux, Automation, Infrastructure",7.0,M.Sc Data Science,6.69,Scrum Master Certified,4,12,504
+345,Sushma Desai,sushma.desai56@email.com,"DevOps, Jenkins, Git, Docker, Linux, CI/CD, Monitoring",6.4,M.Sc Data Science,9.57,AWS Certified Solutions Architect,8,11,856
+346,Varun Bose,varun.bose124@email.com,"DevOps, Jenkins, Git, Docker, Linux, CI/CD, Monitoring",3.7,B.Sc IT,6.03,Microsoft Azure Certified,6,18,256
+347,Sakshi Pandey,sakshi.pandey628@email.com,"Network Security, Ethical Hacking, Python, Linux, Penetration Testing",1.5,M.Tech,6.9,None,9,10,799
+348,Isha Sethi,isha.sethi435@email.com,"Figma, Adobe XD, UI Design, Prototyping, Sketch, Wireframing",3.4,M.Tech AI,7.41,None,4,14,418
+349,Sushma Desai,sushma.desai590@email.com,"PostgreSQL, MySQL, MongoDB, Database Design, SQL, Redis",6.5,B.Sc IT,7.03,Certified Kubernetes Administrator,8,13,830
+350,Tanvi Chopra,tanvi.chopra820@email.com,"Python, Scikit-learn, Machine Learning, Statistics, Jupyter, Pandas",3.8,BCA,6.67,None,2,20,1108
+351,Ajay Shah,ajay.shah805@email.com,"R, Python, Statistics, Data Analysis, Machine Learning, Visualization",2.4,BCA,9.26,AWS Certified Solutions Architect,6,3,1464
+352,Nikhil Kumar,nikhil.kumar221@email.com,"Network Security, Ethical Hacking, Python, Linux, Penetration Testing",3.8,Diploma CS,6.37,PMP Certified,4,11,787
+353,Laxmi Krishnan,laxmi.krishnan955@email.com,"Network Security, Ethical Hacking, Python, Linux, Penetration Testing",2.8,B.E. Computer Science,6.46,Microsoft Azure Certified,9,18,1380
+354,Ajay Nair,ajay.nair800@email.com,"Azure, Google Cloud, Terraform, Kubernetes, Networking, Python",2.8,Diploma CS,7.94,Docker Certified Associate,1,12,1306
+355,Mohit Bose,mohit.bose647@email.com,"Python, Scikit-learn, Machine Learning, Statistics, Jupyter, Pandas",6.9,Diploma CS,9.07,PMP Certified,6,20,1304
+356,Sushma Tiwari,sushma.tiwari870@email.com,"Python, Pandas, NumPy, Data Visualization, SQL, Excel, Matplotlib",0.6,B.Tech IT,6.87,PMP Certified,10,9,597
+357,Urmila Tiwari,urmila.tiwari278@email.com,"Ruby, Rails, PostgreSQL, REST API, Git, Web Development",6.2,B.Tech IT,8.84,Scrum Master Certified,7,13,392
+358,Isha Verma,isha.verma129@email.com,"Selenium, Python, Testing, Automation, JIRA, Manual Testing",5.3,B.Sc IT,8.66,None,3,5,863
+359,Meera Gupta,meera.gupta66@email.com,"Swift, iOS Development, Xcode, REST API, Firebase",4.4,BCA,8.93,Scrum Master Certified,1,3,587
+360,Zara Chopra,zara.chopra87@email.com,"Python, Apache Spark, Airflow, ETL, SQL, Data Engineering",2.5,B.Sc Computer Science,8.8,Docker Certified Associate,10,4,318
+361,Puja Mehta,puja.mehta30@email.com,"Python, Django, Flask, REST API, PostgreSQL, Docker, Git",5.3,Integrated M.Tech,9.48,None,7,17,607
+362,Ramesh Khanna,ramesh.khanna139@email.com,"OpenCV, Python, Computer Vision, Deep Learning, Image Processing",1.4,B.Tech,7.73,Red Hat Certified,8,20,1359
+363,Ajay Kapoor,ajay.kapoor931@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",3.9,B.Sc Computer Science,9.06,Docker Certified Associate,4,11,894
+364,Preeti Chopra,preeti.chopra311@email.com,"Python, Machine Learning, TensorFlow, Data Analysis, Statistics, SQL",0.0,Integrated M.Tech,8.88,None,5,9,1010
+365,Ajay Sharma,ajay.sharma705@email.com,"R, Python, Statistics, Data Analysis, Machine Learning, Visualization",7.6,M.Sc Data Science,7.14,Red Hat Certified,4,19,523
+366,Rahul Krishnan,rahul.krishnan383@email.com,"React Native, Flutter, Firebase, API Integration, Mobile Development",3.3,BCA,7.66,Certified Kubernetes Administrator,2,22,1372
+367,Shweta Saxena,shweta.saxena226@email.com,"Network Security, Ethical Hacking, Python, Linux, Penetration Testing",0.6,Diploma CS,6.91,TensorFlow Developer Certificate,4,20,1139
+368,Rajesh Bansal,rajesh.bansal193@email.com,"Python, Pandas, NumPy, Data Visualization, SQL, Excel, Matplotlib",1.5,M.Tech,6.42,Docker Certified Associate,9,14,607
+369,Zara Sethi,zara.sethi193@email.com,"Unity, C#, Game Development, 3D Modeling, Game Design",0.2,BCA,9.68,Google Cloud Certified,2,3,627
+370,Rajesh Desai,rajesh.desai733@email.com,"Ruby, Rails, PostgreSQL, REST API, Git, Web Development",5.8,B.Sc Computer Science,6.34,Google Cloud Certified,7,6,750
+371,Ananya Kapoor,ananya.kapoor805@email.com,"R, Python, Statistics, Data Analysis, Machine Learning, Visualization",8.0,M.Sc Data Science,8.65,AWS Certified Solutions Architect,5,2,349
+372,Pooja Malhotra,pooja.malhotra795@email.com,"Node.js, Express, MongoDB, REST API, GraphQL, JavaScript",0.6,M.Sc Data Science,6.69,TensorFlow Developer Certificate,6,0,299
+373,Ritika Saxena,ritika.saxena790@email.com,"Ruby, Rails, PostgreSQL, REST API, Git, Web Development",2.0,BCA,6.76,Coursera ML Specialization,8,21,476
+374,Pavan Saxena,pavan.saxena698@email.com,"Android, Kotlin, Java, Firebase, REST API, Mobile Development",7.5,MCA,8.39,AWS Certified Solutions Architect,8,16,300
+375,Suresh Jain,suresh.jain654@email.com,"Android, Kotlin, Java, Firebase, REST API, Mobile Development",1.6,BCA,9.28,Microsoft Azure Certified,1,7,1346
+376,Gayatri Shah,gayatri.shah16@email.com,"JavaScript, Vue.js, HTML, CSS, Webpack, Git, Bootstrap",6.4,B.Tech,6.45,Certified Kubernetes Administrator,0,1,1240
+377,Pavan Shukla,pavan.shukla159@email.com,"Networking, Cisco, TCP/IP, Routing, Firewalls, Linux",6.2,B.Sc Computer Science,6.6,None,10,19,743
+378,Pooja Kumar,pooja.kumar365@email.com,"Python, Scikit-learn, Machine Learning, Statistics, Jupyter, Pandas",5.6,M.Tech AI,6.41,None,3,10,1193
+379,Kunal Khanna,kunal.khanna751@email.com,"React Native, Flutter, Firebase, API Integration, Mobile Development",0.2,B.E. Computer Science,7.36,None,4,1,1043
+380,Sunil Krishnan,sunil.krishnan302@email.com,"OpenCV, Python, Computer Vision, Deep Learning, Image Processing",5.6,B.Sc Computer Science,8.15,None,5,10,1009
+381,Swati Shukla,swati.shukla937@email.com,"NLP, Python, NLTK, spaCy, Transformers, Deep Learning",1.3,BCA,6.59,None,4,17,801
+382,Manoj Sharma,manoj.sharma795@email.com,"Scala, Apache Spark, Big Data, Hadoop, SQL, Data Engineering",3.0,MCA,9.36,Cisco CCNA,9,7,706
+383,Karan Menon,karan.menon839@email.com,"Python, Apache Spark, Airflow, ETL, SQL, Data Engineering",1.5,Diploma CS,7.89,None,2,19,629
+384,Sakshi Bansal,sakshi.bansal657@email.com,"Unity, C#, Game Development, 3D Modeling, Game Design",0.9,BCA,8.5,AWS Certified Solutions Architect,2,5,114
+385,Tanvi Gupta,tanvi.gupta498@email.com,"React Native, Flutter, Firebase, API Integration, Mobile Development",0.8,B.Tech,8.44,None,10,15,1126
+386,Zara Murthy,zara.murthy263@email.com,"Java, Spring Boot, Microservices, MySQL, Git, Docker",2.9,B.Tech,8.73,Google Cloud Certified,3,20,1056
+387,Rohan Bose,rohan.bose821@email.com,"Java, Spring Boot, Microservices, MySQL, Git, Docker",2.9,B.Sc IT,9.57,Red Hat Certified,5,25,1500
+388,Pooja Thakur,pooja.thakur273@email.com,"DevOps, Jenkins, Git, Docker, Linux, CI/CD, Monitoring",0.3,B.Tech Computer Science,9.17,None,3,16,248
+389,Aditya Rao,aditya.rao545@email.com,"Python, Apache Spark, Airflow, ETL, SQL, Data Engineering",1.5,BCA,8.5,Oracle Certified Professional,8,23,1193
+390,Ananya Gupta,ananya.gupta785@email.com,"Ansible, Terraform, AWS, Linux, Automation, Infrastructure",2.9,M.Sc Data Science,8.67,Red Hat Certified,1,5,419
+391,Ramesh Tiwari,ramesh.tiwari517@email.com,"Solidity, Ethereum, Smart Contracts, Web3, JavaScript, Blockchain",5.3,BCA,9.79,Docker Certified Associate,5,10,1176
+392,Sakshi Pandey,sakshi.pandey423@email.com,"C++, Data Structures, Algorithms, Problem Solving, OOP",6.6,B.Tech IT,8.31,None,3,12,1176
+393,Suresh Pandey,suresh.pandey985@email.com,"Ruby, Rails, PostgreSQL, REST API, Git, Web Development",3.6,B.E. Computer Science,6.0,AWS Certified Solutions Architect,4,19,83
+394,Vishal Desai,vishal.desai912@email.com,"Android, Kotlin, Java, Firebase, REST API, Mobile Development",0.1,B.Sc Computer Science,6.82,PMP Certified,0,24,1462
+395,Swati Krishnan,swati.krishnan524@email.com,"NLP, Python, NLTK, spaCy, Transformers, Deep Learning",4.6,B.Tech,6.59,AWS Certified Solutions Architect,7,11,369
+396,Riya Sinha,riya.sinha376@email.com,"GraphQL, Node.js, React, MongoDB, API Development, TypeScript",2.0,M.Tech,9.08,None,9,12,1215
+397,Nidhi Reddy,nidhi.reddy741@email.com,"Unity, C#, Game Development, 3D Modeling, Game Design",6.3,MCA,7.86,Coursera ML Specialization,9,20,665
+398,Vikram Rajan,vikram.rajan391@email.com,"React, TypeScript, Redux, HTML, CSS, JavaScript, Webpack",6.2,M.Tech AI,7.27,Red Hat Certified,6,3,514
+399,Urmila Sharma,urmila.sharma650@email.com,"Python, Apache Spark, Airflow, ETL, SQL, Data Engineering",0.4,BCA,6.16,None,9,4,719
+400,Sandeep Rao,sandeep.rao157@email.com,"Java, Spring Boot, Microservices, MySQL, Git, Docker",5.4,B.E. Computer Science,9.69,Scrum Master Certified,1,7,934
+401,Aditi Tiwari,aditi.tiwari152@email.com,"SQL, Excel, Tableau, Power BI, Business Intelligence, Statistics",2.7,M.Sc Data Science,8.17,AWS Certified Solutions Architect,8,12,587
+402,Rohan Tiwari,rohan.tiwari514@email.com,"C++, Data Structures, Algorithms, Problem Solving, OOP",6.2,MCA,8.9,None,8,6,1049
+403,Karthik Rajan,karthik.rajan201@email.com,"NLP, Python, NLTK, spaCy, Transformers, Deep Learning",4.9,B.Sc IT,7.99,Certified Kubernetes Administrator,1,8,930
+404,Sakshi Rajan,sakshi.rajan92@email.com,"AWS, Docker, Kubernetes, Jenkins, Linux, CI/CD, Terraform",5.4,B.E. Computer Science,7.39,Microsoft Azure Certified,5,11,1266
+405,Sneha Kapoor,sneha.kapoor174@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",4.9,M.Tech AI,7.68,None,7,1,528
+406,Tanvi Pandey,tanvi.pandey160@email.com,"React, TypeScript, Redux, HTML, CSS, JavaScript, Webpack",0.9,BCA,6.92,None,4,0,753
+407,Sanjay Kapoor,sanjay.kapoor461@email.com,"Swift, iOS Development, Xcode, REST API, Firebase",0.2,B.Sc Computer Science,8.81,Microsoft Azure Certified,3,17,1121
+408,Preeti Krishnan,preeti.krishnan495@email.com,"Kubernetes, Docker, Helm, Cloud, DevOps, Monitoring",5.8,MCA,8.64,Google Cloud Certified,6,18,1408
+409,Puja Singh,puja.singh262@email.com,"JavaScript, Vue.js, HTML, CSS, Webpack, Git, Bootstrap",0.5,B.Sc Computer Science,9.0,TensorFlow Developer Certificate,0,14,1390
+410,Priya Reddy,priya.reddy398@email.com,"PHP, WordPress, HTML, CSS, JavaScript, MySQL, jQuery",5.3,Diploma CS,7.37,Coursera ML Specialization,0,9,1379
+411,Shweta Rao,shweta.rao390@email.com,"Scala, Apache Spark, Big Data, Hadoop, SQL, Data Engineering",7.8,B.Tech Computer Science,9.43,None,9,17,230
+412,Isha Iyer,isha.iyer513@email.com,"Go, Docker, Kubernetes, Microservices, Cloud, gRPC",4.5,B.Sc IT,6.08,Certified Kubernetes Administrator,8,9,733
+413,Tarun Tiwari,tarun.tiwari763@email.com,"JavaScript, Vue.js, HTML, CSS, Webpack, Git, Bootstrap",0.1,Diploma CS,7.34,None,3,16,614
+414,Pooja Sinha,pooja.sinha900@email.com,"Python, Apache Spark, Airflow, ETL, SQL, Data Engineering",7.1,Integrated M.Tech,9.76,None,4,7,360
+415,Kriti Tiwari,kriti.tiwari673@email.com,"SQL, Excel, Tableau, Power BI, Business Intelligence, Statistics",0.7,B.E. Computer Science,7.98,Certified Kubernetes Administrator,6,7,1223
+416,Simran Arora,simran.arora994@email.com,"Android, Kotlin, Java, Firebase, REST API, Mobile Development",7.3,B.Tech IT,7.71,None,3,20,333
+417,Yash Menon,yash.menon701@email.com,"React Native, Flutter, Firebase, API Integration, Mobile Development",6.9,M.Tech,8.62,Scrum Master Certified,2,13,347
+418,Ganesh Mehta,ganesh.mehta326@email.com,"Python, Pandas, NumPy, Data Visualization, SQL, Excel, Matplotlib",4.5,B.Sc IT,6.45,PMP Certified,2,23,110
+419,Siddharth Bansal,siddharth.bansal985@email.com,"Angular, TypeScript, HTML, CSS, RxJS, JavaScript",2.4,B.Sc IT,9.55,TensorFlow Developer Certificate,2,24,434
+420,Meera Desai,meera.desai190@email.com,"JavaScript, React, HTML, CSS, Node.js, MongoDB, Express",6.1,B.Tech,8.34,Certified Kubernetes Administrator,9,7,522
+421,Sneha Mishra,sneha.mishra82@email.com,"Swift, iOS Development, Xcode, REST API, Firebase",1.1,Integrated M.Tech,8.3,Cisco CCNA,2,12,1056
+422,Pavan Desai,pavan.desai168@email.com,"React Native, Flutter, Firebase, API Integration, Mobile Development",1.8,B.E. Computer Science,8.91,Google Cloud Certified,4,13,505
+423,Tanvi Bhat,tanvi.bhat68@email.com,"Java, Python, Data Structures, Algorithms, OOP, Problem Solving",7.4,M.Sc Data Science,9.3,None,5,14,555
+424,Ravi Tiwari,ravi.tiwari795@email.com,"Python, Django, Flask, REST API, PostgreSQL, Docker, Git",4.9,Integrated M.Tech,7.45,PMP Certified,6,19,1221
+425,Aryan Menon,aryan.menon538@email.com,"Python, Django, Flask, REST API, PostgreSQL, Docker, Git",4.2,M.Sc Data Science,7.74,AWS Certified Solutions Architect,3,16,1151
+426,Karthik Singh,karthik.singh572@email.com,"Python, Apache Spark, Airflow, ETL, SQL, Data Engineering",4.1,Diploma CS,9.66,Microsoft Azure Certified,4,14,865
+427,Vivek Agarwal,vivek.agarwal473@email.com,"JavaScript, Vue.js, HTML, CSS, Webpack, Git, Bootstrap",3.4,B.Tech,9.49,Scrum Master Certified,2,14,1373
+428,Rekha Patel,rekha.patel740@email.com,"Scala, Apache Spark, Big Data, Hadoop, SQL, Data Engineering",0.9,M.Tech AI,8.22,None,2,12,896
+429,Sakshi Khanna,sakshi.khanna26@email.com,"Java, Python, Data Structures, Algorithms, OOP, Problem Solving",3.6,B.Sc IT,9.4,Docker Certified Associate,1,8,713
+430,Nikhil Joshi,nikhil.joshi94@email.com,"AWS, Docker, Kubernetes, Jenkins, Linux, CI/CD, Terraform",5.6,Diploma CS,7.38,Scrum Master Certified,6,23,1097
+431,Dev Mehta,dev.mehta388@email.com,"NLP, Python, NLTK, spaCy, Transformers, Deep Learning",3.0,M.Tech AI,6.65,PMP Certified,9,21,357
+432,Nikhil Chopra,nikhil.chopra184@email.com,"Java, Spring Boot, Microservices, MySQL, Git, Docker",3.4,M.Tech,8.77,Docker Certified Associate,4,20,420
+433,Kavita Desai,kavita.desai984@email.com,"React Native, Flutter, Firebase, API Integration, Mobile Development",0.0,M.Tech AI,6.96,Docker Certified Associate,7,15,1163
+434,Rahul Shukla,rahul.shukla904@email.com,"R, Python, Statistics, Data Analysis, Machine Learning, Visualization",1.9,B.Tech,8.51,Docker Certified Associate,6,14,212
+435,Aryan Shukla,aryan.shukla7@email.com,"Selenium, Python, Testing, Automation, JIRA, Manual Testing",7.1,M.Tech,8.36,None,3,1,428
+436,Ankit Kumar,ankit.kumar669@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",0.3,Integrated M.Tech,6.12,None,5,2,150
+437,Meera Bansal,meera.bansal183@email.com,"JavaScript, Vue.js, HTML, CSS, Webpack, Git, Bootstrap",5.4,B.Tech,8.51,None,2,14,1235
+438,Prakash Singh,prakash.singh96@email.com,"Android, Kotlin, Java, Firebase, REST API, Mobile Development",2.6,B.E. Computer Science,9.12,Red Hat Certified,8,2,649
+439,Pavan Desai,pavan.desai125@email.com,"PHP, WordPress, HTML, CSS, JavaScript, MySQL, jQuery",2.6,B.E. Computer Science,7.99,Microsoft Azure Certified,9,1,273
+440,Sushma Pillai,sushma.pillai90@email.com,"Swift, iOS Development, Xcode, REST API, Firebase",5.8,B.Tech,9.55,None,6,19,698
+441,Preeti Pillai,preeti.pillai589@email.com,"Kubernetes, Docker, Helm, Cloud, DevOps, Monitoring",2.8,MCA,8.33,None,8,23,1344
+442,Jyoti Sethi,jyoti.sethi828@email.com,"Java, Python, Data Structures, Algorithms, OOP, Problem Solving",7.1,B.Sc Computer Science,8.69,Microsoft Azure Certified,0,3,99
+443,Sonali Joshi,sonali.joshi756@email.com,"Figma, Adobe XD, UI Design, Prototyping, Sketch, Wireframing",6.4,B.E. Computer Science,7.57,PMP Certified,5,17,1355
+444,Nidhi Sharma,nidhi.sharma656@email.com,"React Native, Flutter, Firebase, API Integration, Mobile Development",5.5,M.Tech,9.0,None,4,16,1176
+445,Sakshi Sharma,sakshi.sharma117@email.com,"Solidity, Ethereum, Smart Contracts, Web3, JavaScript, Blockchain",2.7,B.Sc IT,8.16,Google Cloud Certified,2,6,726
+446,Kriti Jain,kriti.jain939@email.com,"Swift, iOS Development, Xcode, REST API, Firebase",6.4,Diploma CS,6.52,None,10,14,1149
+447,Abhishek Bose,abhishek.bose803@email.com,"Angular, TypeScript, HTML, CSS, RxJS, JavaScript",7.4,BCA,9.17,None,9,23,1438
+448,Siddharth Krishnan,siddharth.krishnan549@email.com,"JavaScript, React, HTML, CSS, Node.js, MongoDB, Express",1.7,Diploma CS,7.26,Cisco CCNA,1,4,624
+449,Sneha Gandhi,sneha.gandhi385@email.com,"OpenCV, Python, Computer Vision, Deep Learning, Image Processing",6.7,B.Tech,8.3,Oracle Certified Professional,9,3,681
+450,Siddharth Singh,siddharth.singh279@email.com,"Angular, TypeScript, HTML, CSS, RxJS, JavaScript",0.7,B.Sc Computer Science,7.41,None,3,16,669
+451,Varun Joshi,varun.joshi384@email.com,"Python, Django, Flask, REST API, PostgreSQL, Docker, Git",6.2,B.Tech Computer Science,7.69,Google Cloud Certified,7,16,365
+452,Manish Gandhi,manish.gandhi946@email.com,"Swift, iOS Development, Xcode, REST API, Firebase",5.9,BCA,7.18,PMP Certified,2,24,251
+453,Vishal Desai,vishal.desai211@email.com,"Python, Django, Flask, REST API, PostgreSQL, Docker, Git",3.7,B.Sc IT,9.29,Coursera ML Specialization,0,9,140
+454,Aryan Patel,aryan.patel342@email.com,"Go, Docker, Kubernetes, Microservices, Cloud, gRPC",7.1,B.Tech Computer Science,7.98,None,0,18,689
+455,Gaurav Shah,gaurav.shah206@email.com,"React Native, Flutter, Firebase, API Integration, Mobile Development",2.3,BCA,7.21,Docker Certified Associate,10,3,608
+456,Simran Mehta,simran.mehta281@email.com,"AWS, Docker, Kubernetes, Jenkins, Linux, CI/CD, Terraform",0.1,B.Tech,8.13,Coursera ML Specialization,3,17,767
+457,Ramesh Shah,ramesh.shah278@email.com,"Python, Scikit-learn, Machine Learning, Statistics, Jupyter, Pandas",7.5,M.Tech AI,7.08,Certified Kubernetes Administrator,2,2,687
+458,Dev Gandhi,dev.gandhi554@email.com,"Ruby, Rails, PostgreSQL, REST API, Git, Web Development",0.4,BCA,7.79,AWS Certified Solutions Architect,1,12,160
+459,Divya Arora,divya.arora402@email.com,"Java, Python, Data Structures, Algorithms, OOP, Problem Solving",5.6,B.Tech,8.39,Docker Certified Associate,9,11,689
+460,Abhishek Iyer,abhishek.iyer731@email.com,"OpenCV, Python, Computer Vision, Deep Learning, Image Processing",0.6,M.Tech AI,8.9,None,1,25,1480
+461,Sonali Gupta,sonali.gupta467@email.com,"Android, Kotlin, Java, Firebase, REST API, Mobile Development",5.5,B.Sc IT,8.91,None,3,7,344
+462,Dev Sinha,dev.sinha935@email.com,"Networking, Cisco, TCP/IP, Routing, Firewalls, Linux",3.1,B.Sc IT,9.49,PMP Certified,5,14,1048
+463,Sneha Reddy,sneha.reddy487@email.com,"AWS, Docker, Kubernetes, Jenkins, Linux, CI/CD, Terraform",2.8,M.Sc Data Science,9.21,None,5,19,1226
+464,Harsh Kulkarni,harsh.kulkarni106@email.com,"Node.js, Express, MongoDB, REST API, GraphQL, JavaScript",6.5,M.Tech AI,6.41,None,10,2,668
+465,Ajay Bose,ajay.bose411@email.com,"GraphQL, Node.js, React, MongoDB, API Development, TypeScript",3.3,B.Tech,6.93,Oracle Certified Professional,7,12,185
+466,Kriti Bhat,kriti.bhat834@email.com,"GraphQL, Node.js, React, MongoDB, API Development, TypeScript",3.4,B.E. Computer Science,8.16,PMP Certified,8,22,533
+467,Varun Reddy,varun.reddy758@email.com,"Ansible, Terraform, AWS, Linux, Automation, Infrastructure",6.7,B.Tech Computer Science,8.25,Docker Certified Associate,5,17,249
+468,Sunil Nair,sunil.nair316@email.com,"Node.js, Express, MongoDB, REST API, GraphQL, JavaScript",0.6,B.Tech Computer Science,8.6,None,5,15,1370
+469,Pooja Patel,pooja.patel223@email.com,"SQL, Excel, Tableau, Power BI, Business Intelligence, Statistics",7.1,M.Tech AI,8.42,Google Cloud Certified,2,21,355
+470,Rekha Menon,rekha.menon299@email.com,"Python, Apache Spark, Airflow, ETL, SQL, Data Engineering",4.9,M.Sc Data Science,6.74,PMP Certified,4,18,1441
+471,Vivek Arora,vivek.arora736@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",7.9,B.Tech,6.03,Scrum Master Certified,6,4,652
+472,Pooja Pandey,pooja.pandey923@email.com,"NLP, Python, NLTK, spaCy, Transformers, Deep Learning",7.7,BCA,8.67,Cisco CCNA,1,9,113
+473,Akash Arora,akash.arora720@email.com,"GraphQL, Node.js, React, MongoDB, API Development, TypeScript",3.2,B.Tech IT,8.7,None,6,13,1166
+474,Nidhi Nair,nidhi.nair487@email.com,"SQL, Excel, Tableau, Power BI, Business Intelligence, Statistics",1.5,B.E. Computer Science,9.2,Cisco CCNA,6,4,640
+475,Harsh Desai,harsh.desai12@email.com,"Python, Pandas, NumPy, Data Visualization, SQL, Excel, Matplotlib",5.2,MCA,8.74,None,10,13,328
+476,Rohan Desai,rohan.desai658@email.com,"Angular, TypeScript, HTML, CSS, RxJS, JavaScript",6.9,M.Tech AI,8.64,Red Hat Certified,9,5,980
+477,Madhuri Arora,madhuri.arora566@email.com,"Ruby, Rails, PostgreSQL, REST API, Git, Web Development",3.1,B.Sc Computer Science,6.71,Google Cloud Certified,9,15,534
+478,Sandeep Malhotra,sandeep.malhotra421@email.com,"OpenCV, Python, Computer Vision, Deep Learning, Image Processing",4.6,BCA,9.72,None,5,3,1238
+479,Bhavana Patel,bhavana.patel146@email.com,"DevOps, Jenkins, Git, Docker, Linux, CI/CD, Monitoring",7.9,M.Tech AI,8.96,Docker Certified Associate,8,2,1121
+480,Dev Patel,dev.patel252@email.com,"Swift, iOS Development, Xcode, REST API, Firebase",5.0,Diploma CS,9.65,None,10,20,1154
+481,Yash Kapoor,yash.kapoor628@email.com,"Java, Spring Boot, Microservices, MySQL, Git, Docker",7.2,BCA,8.96,None,7,16,1010
+482,Sushma Gandhi,sushma.gandhi432@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",7.7,M.Tech AI,7.12,Oracle Certified Professional,0,22,1273
+483,Vivek Rajan,vivek.rajan267@email.com,"Java, Spring Boot, Microservices, MySQL, Git, Docker",5.0,B.Tech,6.64,AWS Certified Solutions Architect,10,9,1328
+484,Sneha Agarwal,sneha.agarwal497@email.com,"React, TypeScript, Redux, HTML, CSS, JavaScript, Webpack",1.0,B.Tech Computer Science,9.24,TensorFlow Developer Certificate,4,4,1311
+485,Swati Malhotra,swati.malhotra879@email.com,"Network Security, Ethical Hacking, Python, Linux, Penetration Testing",0.1,B.Tech Computer Science,8.29,None,10,14,807
+486,Varun Sinha,varun.sinha802@email.com,"Selenium, Python, Testing, Automation, JIRA, Manual Testing",3.9,M.Tech AI,8.0,AWS Certified Solutions Architect,5,2,347
+487,Aryan Chopra,aryan.chopra858@email.com,"R, Python, Statistics, Data Analysis, Machine Learning, Visualization",6.0,B.E. Computer Science,8.93,Certified Kubernetes Administrator,10,14,1355
+488,Shreya Bhat,shreya.bhat592@email.com,"C, C++, Embedded Systems, Arduino, Microcontrollers, IoT",0.4,M.Tech,8.87,Coursera ML Specialization,0,5,1000
+489,Shruti Jain,shruti.jain309@email.com,"Swift, iOS Development, Xcode, REST API, Firebase",6.0,M.Tech AI,9.51,Certified Kubernetes Administrator,6,21,1495
+490,Shweta Jain,shweta.jain269@email.com,"Python, Scikit-learn, Machine Learning, Statistics, Jupyter, Pandas",4.2,B.E. Computer Science,6.05,Docker Certified Associate,6,21,696
+491,Puja Singh,puja.singh100@email.com,"OpenCV, Python, Computer Vision, Deep Learning, Image Processing",5.1,Integrated M.Tech,7.64,TensorFlow Developer Certificate,5,8,596
+492,Aditya Sinha,aditya.sinha671@email.com,"GraphQL, Node.js, React, MongoDB, API Development, TypeScript",3.1,M.Tech AI,8.57,Certified Kubernetes Administrator,10,18,449
+493,Vishal Gandhi,vishal.gandhi694@email.com,"Java, Python, Data Structures, Algorithms, OOP, Problem Solving",2.5,BCA,8.56,None,0,13,250
+494,Puja Gupta,puja.gupta702@email.com,"Ruby, Rails, PostgreSQL, REST API, Git, Web Development",2.8,B.Sc IT,7.08,Microsoft Azure Certified,0,0,1318
+495,Divya Kumar,divya.kumar962@email.com,"Rust, Systems Programming, Performance Optimization, C++",5.3,Integrated M.Tech,6.82,Coursera ML Specialization,1,2,1288
+496,Harsh Saxena,harsh.saxena673@email.com,"Ansible, Terraform, AWS, Linux, Automation, Infrastructure",6.4,MCA,9.4,Oracle Certified Professional,4,9,1006
+497,Neha Bose,neha.bose945@email.com,"PHP, WordPress, HTML, CSS, JavaScript, MySQL, jQuery",6.2,B.Sc IT,9.43,PMP Certified,4,5,201
+498,Swati Kumar,swati.kumar392@email.com,"Python, Apache Spark, Airflow, ETL, SQL, Data Engineering",2.7,BCA,6.98,TensorFlow Developer Certificate,2,14,192
+499,Tarun Iyer,tarun.iyer625@email.com,"Node.js, Express, MongoDB, REST API, GraphQL, JavaScript",1.4,M.Sc Data Science,6.41,None,6,6,1307
+500,Meera Khanna,meera.khanna733@email.com,"Network Security, Ethical Hacking, Python, Linux, Penetration Testing",0.8,B.Tech Computer Science,6.27,TensorFlow Developer Certificate,7,0,1069

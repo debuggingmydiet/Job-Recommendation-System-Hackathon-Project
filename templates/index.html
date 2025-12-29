@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Job Recommendation System</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg-main: #020617;
+            --glass-outer: rgba(15,23,42,0.32);
+            --glass-section: rgba(15,23,42,0.46);
+            --glass-input: rgba(15,23,42,0.70);
+            --glass-soft: rgba(15,23,42,0.52);
+            --border-soft: rgba(148,163,184,0.32);
+            --border-strong: rgba(148,163,184,0.46);
+            --accent: #2563eb;
+            --accent-muted: rgba(37,99,235,0.16);
+            --accent-2: #22c55e;
+            --text-main: #e5e7eb;
+            --text-soft: #9ca3af;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            min-height: 100vh;
+            background:
+                radial-gradient(circle at top left, rgba(37,99,235,0.18), transparent 55%),
+                radial-gradient(circle at bottom right, rgba(56,189,248,0.16), transparent 60%),
+                linear-gradient(145deg, #020617, #020617);
+            color: var(--text-main);
+        }
+
+        .outer-shell {
+            max-width: 1280px;
+            margin: 20px auto;
+            padding: 18px;
+            border-radius: 32px;
+            background: var(--glass-outer);
+            border: 1px solid var(--border-soft);
+            box-shadow: 0 26px 70px rgba(15,23,42,0.9);
+            backdrop-filter: blur(26px);
+            -webkit-backdrop-filter: blur(26px);
+        }
+
+        .container {
+            border-radius: 26px;
+            padding: 20px 22px 26px;
+            background: rgba(15,23,42,0.80);
+            box-shadow: inset 0 0 0 1px rgba(15,23,42,0.9);
+        }
+
+        h1 {
+            text-align: left;
+            color: #f9fafb;
+            margin-bottom: 20px;
+            letter-spacing: 0.04em;
+            font-size: 1.8rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .logo-pill {
+            padding: 5px 10px;
+            border-radius: 999px;
+            background: rgba(15,23,42,0.85);
+            border: 1px solid rgba(148,163,184,0.42);
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.84rem;
+            color: var(--text-soft);
+            box-shadow: 0 10px 26px rgba(15,23,42,0.9);
+        }
+        .logo-dot {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: radial-gradient(circle at 30% 20%, #22c55e, #0ea5e9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            color: #0b1120;
+        }
+        .title-main { font-weight: 600; }
+
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 16px;
+            padding: 4px;
+            border-radius: 999px;
+            background: rgba(15,23,42,0.55);
+            box-shadow:
+                0 16px 40px rgba(15,23,42,0.9),
+                inset 0 0 0 1px rgba(30,64,175,0.45);
+            backdrop-filter: blur(18px);
+            -webkit-backdrop-filter: blur(18px);
+        }
+        .tab {
+            flex: 1;
+            padding: 9px 12px;
+            background: transparent;
+            border: none;
+            border-radius: 999px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            color: var(--text-soft);
+            letter-spacing: 0.02em;
+            transition: background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+        }
+        .tab:hover {
+            background: rgba(15,23,42,0.78);
+        }
+        .tab.active {
+            background: linear-gradient(135deg, rgba(37,99,235,0.9), rgba(37,99,235,1));
+            box-shadow:
+                0 14px 40px rgba(15,23,42,0.96),
+                0 0 0 1px rgba(191,219,254,0.3);
+            color: #f9fafb;
+        }
+
+        .section {
+            display: none;
+            margin-top: 16px;
+            padding: 20px 20px 24px;
+            border-radius: 24px;
+            background: var(--glass-section);
+            box-shadow:
+                0 22px 60px rgba(15,23,42,0.95),
+                inset 0 0 0 1px rgba(30,64,175,0.35);
+            border: 1px solid rgba(148,163,184,0.38);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+        }
+        .section.active { display: block; }
+        .section h2 {
+            margin-bottom: 16px;
+            font-size: 1.15rem;
+            color: #f9fafb;
+        }
+
+        .form-group { margin-bottom: 14px; }
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 500;
+            color: var(--text-main);
+            font-size: 0.9rem;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 9px 11px;
+            border-radius: 14px;
+            border: 1px solid var(--border-soft);
+            font-size: 0.9rem;
+            background: var(--glass-input);
+            color: var(--text-main);
+            outline: none;
+            transition: border 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+        }
+        input::placeholder, textarea::placeholder {
+            color: rgba(148,163,184,0.85);
+        }
+        input:focus, textarea:focus, select:focus {
+            border-color: rgba(191,219,254,0.9);
+            box-shadow:
+                0 0 0 1px rgba(129,140,248,0.75),
+                0 8px 22px rgba(15,23,42,0.85);
+            background: rgba(15,23,42,0.92);
+        }
+        textarea { min-height: 100px; resize: vertical; }
+
+        button {
+            background: linear-gradient(135deg, #2563eb, #0ea5e9);
+            color: white;
+            padding: 9px 24px;
+            border: none;
+            border-radius: 999px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            box-shadow: 0 14px 34px rgba(15,23,42,0.9);
+            transition: transform 0.12s ease, box-shadow 0.12s ease, filter 0.12s ease;
+        }
+        button:hover {
+            filter: brightness(1.05);
+            transform: translateY(-1px);
+            box-shadow: 0 18px 42px rgba(15,23,42,1);
+        }
+        button:active {
+            transform: translateY(0);
+            box-shadow: 0 10px 26px rgba(15,23,42,0.95);
+        }
+
+        .results { margin-top: 18px; }
+
+        .card {
+            background: var(--glass-soft);
+            padding: 14px 16px;
+            margin-bottom: 10px;
+            border-radius: 16px;
+            border: 1px solid var(--border-strong);
+            box-shadow: 0 16px 40px rgba(15,23,42,0.9);
+            backdrop-filter: blur(22px);
+            -webkit-backdrop-filter: blur(22px);
+        }
+        .card h4 { margin-bottom: 4px; color: #f9fafb; }
+        .card p { margin-bottom: 2px; font-size: 0.88rem; color: var(--text-main); }
+
+        .score {
+            font-size: 1.02rem;
+            font-weight: 700;
+            color: var(--accent-2);
+            margin-top: 6px;
+        }
+
+        .list-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            border-radius: 16px;
+            background: var(--glass-soft);
+            border: 1px solid var(--border-strong);
+            box-shadow: 0 14px 34px rgba(15,23,42,0.9);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .list-item small { color: var(--text-soft); }
+
+        @media (max-width: 768px) {
+            .outer-shell { margin: 10px; padding: 12px; }
+            .container { padding: 16px; }
+            .tabs { flex-wrap: wrap; }
+            .tab { flex: 1 1 48%; font-size: 0.84rem; padding: 7px 8px; }
+            .section { padding: 16px 14px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-shell">
+        <div class="container">
+            <h1>
+                <span class="logo-pill">
+                    <span class="logo-dot">AI</span>
+                    Smart Matching
+                </span>
+                <span class="title-main">AI-Powered Job Recommendation System</span>
+            </h1>
+
+            <div class="tabs">
+                <button class="tab active" onclick="showTab(event, 'jobs')">Post Job</button>
+                <button class="tab" onclick="showTab(event, 'candidates')">Register Candidate</button>
+                <button class="tab" onclick="showTab(event, 'apply')">Apply to Job</button>
+                <button class="tab" onclick="showTab(event, 'shortlist')">Shortlist Candidates</button>
+                <button class="tab" onclick="showTab(event, 'recommend')">Get Recommendations</button>
+            </div>
+
+            <div id="jobs" class="section active">
+                <h2>Post a New Job</h2>
+                <form id="jobForm">
+                    <div class="form-group">
+                        <label>Job Title</label>
+                        <input type="text" id="job_title" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Company</label>
+                        <input type="text" id="job_company" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Description</label>
+                        <textarea id="job_description" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Required Skills (comma-separated)</label>
+                        <input type="text" id="job_skills" placeholder="Python, Flask, Machine Learning" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Experience Required (years)</label>
+                        <input type="number" step="0.5" id="job_experience" value="0">
+                    </div>
+                    <div class="form-group">
+                        <label>Minimum Qualification</label>
+                        <input type="text" id="job_qualification" placeholder="Bachelor's in Computer Science">
+                    </div>
+                    <div class="form-group">
+                        <label>Location</label>
+                        <input type="text" id="job_location" placeholder="Remote / City Name">
+                    </div>
+                    <button type="submit">Post Job</button>
+                </form>
+            </div>
+
+            <div id="candidates" class="section">
+                <h2>Register as Candidate</h2>
+                <form id="candidateForm">
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" id="candidate_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" id="candidate_email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Skills (comma-separated)</label>
+                        <input type="text" id="candidate_skills" placeholder="Python, JavaScript, React" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Experience (years)</label>
+                        <input type="number" step="0.5" id="candidate_experience" value="0">
+                    </div>
+                    <div class="form-group">
+                        <label>Education</label>
+                        <input type="text" id="candidate_education" placeholder="B.Tech in Computer Science">
+                    </div>
+                    <div class="form-group">
+                        <label>Resume Summary</label>
+                        <textarea id="candidate_resume"></textarea>
+                    </div>
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+
+            <div id="apply" class="section">
+                <h2>Apply to a Job</h2>
+                <div class="form-group">
+                    <label>Select Job</label>
+                    <select id="apply_job_select"></select>
+                </div>
+                <div class="form-group">
+                    <label>Select Candidate</label>
+                    <select id="apply_candidate_select"></select>
+                </div>
+                <button onclick="submitApplication()">Submit Application</button>
+            </div>
+
+            <div id="shortlist" class="section">
+                <h2>Shortlist Candidates for Job</h2>
+                <div class="form-group">
+                    <label>Select Job</label>
+                    <select id="shortlist_job_select"></select>
+                </div>
+                <div class="form-group">
+                    <label>Number of Candidates to Shortlist</label>
+                    <input type="number" id="top_n" value="5" min="1">
+                </div>
+                <button onclick="performShortlisting()">Run AI Shortlisting</button>
+                <div id="shortlistResults" class="results"></div>
+            </div>
+
+            <div id="recommend" class="section">
+                <h2>Get Job Recommendations</h2>
+                <div class="form-group">
+                    <label>Select Candidate</label>
+                    <select id="recommend_candidate_select"></select>
+                </div>
+                <button onclick="getRecommendations()">Get Recommendations</button>
+                <div id="recommendResults" class="results"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showTab(e, tabName) {
+            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.getElementById(tabName).classList.add('active');
+            e.target.classList.add('active');
+            if (['apply', 'shortlist', 'recommend'].includes(tabName)) {
+                loadDropdowns();
+            }
+        }
+
+        document.getElementById('jobForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const data = {
+                title: document.getElementById('job_title').value,
+                company: document.getElementById('job_company').value,
+                description: document.getElementById('job_description').value,
+                required_skills: document.getElementById('job_skills').value,
+                experience_required: document.getElementById('job_experience').value,
+                min_qualification: document.getElementById('job_qualification').value,
+                location: document.getElementById('job_location').value
+            };
+            const response = await fetch('/api/jobs', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(data)
+            });
+            const resJson = await response.json();
+            if (response.ok) {
+                alert('Job posted successfully!');
+                e.target.reset();
+            } else {
+                alert(resJson.error || 'Failed to post job');
+            }
+        });
+
+        document.getElementById('candidateForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const data = {
+                name: document.getElementById('candidate_name').value,
+                email: document.getElementById('candidate_email').value,
+                skills: document.getElementById('candidate_skills').value,
+                experience: document.getElementById('candidate_experience').value,
+                education: document.getElementById('candidate_education').value,
+                resume_text: document.getElementById('candidate_resume').value
+            };
+            const response = await fetch('/api/candidates', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(data)
+            });
+            const resJson = await response.json();
+            if (response.ok) {
+                alert('Candidate registered successfully!');
+                e.target.reset();
+            } else {
+                alert(resJson.error || 'Failed to register candidate');
+            }
+        });
+
+        async function loadDropdowns() {
+            const [jobsRes, candidatesRes] = await Promise.all([
+                fetch('/api/jobs'),
+                fetch('/api/candidates')
+            ]);
+            const jobs = await jobsRes.json();
+            const candidates = await candidatesRes.json();
+
+            const jobSelects = ['apply_job_select', 'shortlist_job_select'];
+            jobSelects.forEach(id => {
+                const select = document.getElementById(id);
+                select.innerHTML = jobs.map(j => `<option value="${j.id}">${j.title} - ${j.company}</option>`).join('');
+            });
+
+            const candidateSelects = ['apply_candidate_select', 'recommend_candidate_select'];
+            candidateSelects.forEach(id => {
+                const select = document.getElementById(id);
+                select.innerHTML = candidates.map(c => `<option value="${c.id}">${c.name} (${c.email})</option>`).join('');
+            });
+        }
+
+        async function submitApplication() {
+            const data = {
+                job_id: document.getElementById('apply_job_select').value,
+                candidate_id: document.getElementById('apply_candidate_select').value
+            };
+            const response = await fetch('/api/apply', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(data)
+            });
+            const resJson = await response.json();
+            if (response.ok) {
+                alert('Application submitted successfully!');
+            } else {
+                alert(resJson.error || 'Failed to submit application');
+            }
+        }
+
+        async function performShortlisting() {
+            const jobId = document.getElementById('shortlist_job_select').value;
+            const topN = document.getElementById('top_n').value;
+            const response = await fetch(`/api/shortlist/${jobId}?top_n=${topN}`);
+            const results = await response.json();
+            const resultsDiv = document.getElementById('shortlistResults');
+            resultsDiv.innerHTML = '<h3>Shortlisted Candidates</h3>' + results.map(r => `
+                <div class="card">
+                    <h4>${r.candidate_name}</h4>
+                    <p><strong>Email:</strong> ${r.email}</p>
+                    <p><strong>Skills:</strong> ${r.skills}</p>
+                    <p><strong>Experience:</strong> ${r.experience} years</p>
+                    <p class="score">Match Score: ${r.match_score.toFixed(2)}%</p>
+                </div>
+            `).join('');
+        }
+
+        async function getRecommendations() {
+            const candidateId = document.getElementById('recommend_candidate_select').value;
+            const response = await fetch(`/api/recommendations/${candidateId}`);
+            const results = await response.json();
+            const resultsDiv = document.getElementById('recommendResults');
+            resultsDiv.innerHTML = '<h3>Recommended Jobs</h3>' + results.map(r => `
+                <div class="list-item">
+                    <div>
+                        <strong>${r.title}</strong> - ${r.company}<br>
+                        <small>${r.location}</small>
+                    </div>
+                    <div class="score">${r.match_score.toFixed(2)}%</div>
+                </div>
+            `).join('');
+        }
+    </script>
+</body>
+</html>
